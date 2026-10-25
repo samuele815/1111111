@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="application-version" content="2.2.0">
+<meta name="application-version" content="2.3.0">
 <meta name="color-scheme" content="dark">
-<title>玄幻人生模拟器 · 小说主线融合修复版 2.2.0</title>
+<title>玄幻人生模拟器 · 剧情重构版 2.3.0</title>
 <style>
 :root{color-scheme:dark;--bg:#0e151d;--bg2:#15212b;--panel:#1a2732;--panel2:#202f3a;--line:#3a4d5a;--gold:#e4c17d;--gold2:#bd9655;--text:#eff3f5;--muted:#adbbc4;--soft:#7f929e;--green:#9dc9aa;--red:#ed9999;--blue:#92bce8;--shadow:0 15px 40px rgba(0,0,0,.19)}
 *{box-sizing:border-box}html{background:var(--bg);scroll-behavior:smooth}body{margin:0;color:var(--text);background:radial-gradient(ellipse at top,#1c2c38 0,var(--bg) 47rem);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:14px;line-height:1.65;min-height:100vh}button,input,select{font:inherit}button{cursor:pointer;transition:border-color .15s,background .15s,transform .15s}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--gold);outline-offset:2px}button:disabled{cursor:not-allowed;opacity:.48;filter:saturate(.55)}p{margin:8px 0}h1,h2,h3{line-height:1.32}h1{font-size:clamp(25px,3vw,36px);margin:4px 0 10px;letter-spacing:.015em}h2{font-size:22px;margin:4px 0 9px}h3{font-size:16px;margin:4px 0 8px}small{font-size:12px}.muted{color:var(--muted)}.tiny{font-size:11px}.gold{color:var(--gold)}.full{width:100%}.panel{background:linear-gradient(145deg,rgba(31,46,57,.97),rgba(22,33,43,.98));border:1px solid var(--line);border-radius:15px;padding:19px;box-shadow:var(--shadow);min-width:0}.panel-kicker,.chapter,.intro-kicker,.hero-kicker{color:var(--gold);font-size:10px;font-weight:800;letter-spacing:.19em;text-transform:uppercase}.section-title{margin:4px 0 10px}.row{display:flex;justify-content:space-between;align-items:center;gap:12px}.wrap-row{flex-wrap:wrap}.buttons{display:flex;align-items:center;flex-wrap:wrap;gap:9px;margin-top:16px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid transparent;border-radius:9px;padding:10px 15px;background:linear-gradient(180deg,#eed7a3,#c9a465);color:#19232a;font-weight:800;min-height:40px;box-shadow:0 4px 12px #0002}.btn:hover:not(:disabled){transform:translateY(-1px);filter:brightness(1.04)}.btn-soft{background:#15232d;border-color:#526572;color:var(--text);box-shadow:none}.btn-danger{background:#43292b;border-color:#795153;color:#ffcece}.small-btn{padding:6px 10px;min-height:30px;font-size:12px}.text-btn{background:transparent;border:0;color:var(--gold);padding:5px}.age-pill,.points-pill,.status-label{border:1px solid #526572;border-radius:20px;padding:5px 10px;color:var(--muted);font-size:11px;white-space:nowrap}.points-pill{color:var(--gold);border-color:#756342}.realm-chip{display:inline-flex;margin-top:8px;border:1px solid #776543;border-radius:20px;color:var(--gold);padding:4px 10px;font-size:11px}.topbar{max-width:1440px;margin:auto;display:flex;align-items:center;gap:13px;padding:17px 22px 13px}.brand-mark{height:42px;width:42px;display:grid;place-items:center;border:1px solid #8f784f;background:linear-gradient(145deg,#384750,#18242c);border-radius:12px;color:var(--gold);font-size:24px;font-weight:900;flex-shrink:0}.brand-copy{min-width:0}.brand-eyebrow{font-size:9px;letter-spacing:.2em;color:var(--gold)}.brand-name{font-weight:850;font-size:17px}.brand-name span{font-size:10px;color:var(--soft);font-weight:500;margin-left:8px}.topbar-right{margin-left:auto;display:flex;align-items:center;gap:10px}.top-status{border:1px solid #384b58;border-radius:20px;padding:5px 10px;color:#b2c0c7;font-size:11px;white-space:nowrap}.nav-bar{max-width:1440px;margin:0 auto 14px;padding:0 22px 12px;display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin;border-bottom:1px solid #263944}.nav-item{white-space:nowrap;flex:0 0 auto;display:flex;align-items:center;gap:7px;background:transparent;color:var(--muted);border:1px solid transparent;border-radius:9px;padding:8px 12px;font-size:12px}.nav-item span{color:var(--gold);font-size:15px}.nav-item:hover{background:#1b2b36;border-color:#354956;color:var(--text)}.nav-item.active{background:#26343d;border-color:#7a6746;color:#f6dfaa}.toast-inline{max-width:1396px;margin:0 auto 12px;padding:9px 13px;display:flex;align-items:center;gap:12px;background:#28382f;border:1px solid #4d6d59;border-radius:9px;color:#d4ead8;font-size:12px}.toast-inline span{flex:1}.toast-inline button{border:0;background:transparent;color:inherit;font-size:18px}.app-layout{max-width:1396px;margin:0 auto;padding:0 22px 26px;display:grid;grid-template-columns:268px minmax(0,1fr);gap:16px;align-items:start}.side-stack{display:grid;gap:13px;min-width:0}.content-area{min-width:0;display:grid;gap:14px}.profile .portrait{float:left;width:54px;height:54px;margin:0 12px 9px 0;display:grid;place-items:center;border-radius:12px;background:#263843;border:1px solid #526673;color:var(--gold);font-size:25px;font-weight:850}.profile-name{font-size:20px;font-weight:850}.profile .realm-chip{clear:both}.quick-stats{clear:both;display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:14px}.quick-stats>div{padding:9px;background:#121d25;border:1px solid #31434f;border-radius:9px;min-width:0}.quick-stats small,.currency-tile small,.system-facts small,.sim-metrics small,.power-grid small{display:block;color:var(--muted);font-size:11px}.quick-stats b{font-size:17px;display:block;overflow-wrap:anywhere}.panel-kicker{margin-bottom:9px}.attr-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.attr-grid.compact{grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}.attr-card{padding:9px 10px;background:#121d25;border:1px solid #324651;border-radius:9px;min-width:0}.attr-name{color:var(--muted);font-size:12px}.attr-card strong{display:block;font-size:17px;line-height:1.4;overflow-wrap:anywhere}.attr-card strong small{color:var(--gold);font-size:10px;font-weight:600}.tiny-track,.progress-track{height:4px;background:#0b1117;border-radius:20px;overflow:hidden;margin:5px 0 3px}.tiny-track i,.progress-track i{display:block;height:100%;background:linear-gradient(90deg,#8ab7dc,#e4c17d);border-radius:20px}.attr-note{font-size:9px;color:var(--soft);white-space:normal}.money-line{display:flex;justify-content:space-between;align-items:center;font-size:12px;margin:5px 0 7px}.money-line b{font-size:20px;color:var(--gold)}.hero-panel{display:grid;grid-template-columns:minmax(0,1fr) 110px;gap:18px;align-items:center;padding:25px 26px;background:radial-gradient(circle at 88% 45%,#2e404a 0,#1a2a35 28%,#1a2732 75%);min-height:198px}.hero-panel p{max-width:720px;color:#c2cdd3;font-size:13px}.hero-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:16px}.hero-seal{display:grid;justify-items:center;gap:7px;color:var(--gold)}.hero-seal div{width:76px;height:76px;border:1px solid #82704e;border-radius:50%;display:grid;place-items:center;font-size:37px;background:#101a22;box-shadow:inset 0 0 0 5px #101a2266}.hero-seal small{color:var(--muted)}.tutorial-callout{display:flex;align-items:center;gap:13px;border-color:#5d765e;background:linear-gradient(110deg,#24382f,#1a2a33)}.tutorial-callout p{font-size:12px;color:#d0ded4;margin:4px 0}.tutorial-callout small{color:#aed2b6}.callout-icon{flex:0 0 36px;height:36px;border:1px solid #6d8d71;border-radius:9px;display:grid;place-items:center;color:#aeddb5;font-size:20px}.tutorial-callout>div:nth-child(2){flex:1;min-width:0}.compact-callout{padding:12px 14px}.home-columns{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:14px}.story-text{white-space:pre-line;color:#d2dce1;line-height:1.78;font-size:13px}.map-mini{margin:14px 0;padding:12px;border:1px solid #354956;border-radius:12px;background:radial-gradient(ellipse at center,#263b46,#111c24 75%);min-height:168px}.map-heading{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;color:#d1d9dd;font-size:10px}.map-heading span:first-child{color:var(--gold)}.map-places{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:30px}.map-place{min-width:0;display:grid;justify-items:center;gap:5px;text-align:center;padding:8px 4px;border:1px solid #405560;background:#1b2b35;border-radius:9px;color:var(--muted);font-size:10px}.map-place b{display:grid;place-items:center;width:29px;height:29px;border-radius:50%;border:1px solid #8e7951;color:var(--gold);background:#101a21;font-size:13px}.map-place span{overflow-wrap:anywhere}.plan-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-top:13px}.plan-card{background:#14222b;border:1px solid #354955;border-radius:9px;text-align:left;color:var(--text);padding:10px;min-width:0}.plan-card b{display:block;font-size:12px}.plan-card small{display:block;color:var(--muted);font-size:10px;line-height:1.45;margin-top:5px}.plan-card.selected{border-color:var(--gold);background:#28332f}.system-facts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:13px 0}.system-facts>div{padding:10px;background:#121d25;border:1px solid #324651;border-radius:9px}.system-facts b{display:block;font-size:13px;margin-top:3px}.hint-strip{padding:10px 12px;border-left:2px solid var(--gold2);background:#111c24;color:var(--muted);font-size:11px;margin-top:13px;border-radius:0 8px 8px 0}.hint-strip.warning{border-color:var(--red);color:#edc3c3}.chronicle-current{padding:12px;border:1px solid #394f5b;border-radius:10px;background:#14212a}.chronicle-current span{display:block;color:var(--gold);font-size:10px}.chronicle-current b{display:block;margin-top:3px}.chronicle-current p,.chronicle-row p{font-size:12px;color:var(--muted);margin:4px 0 0}.chronicle-row{display:flex;gap:12px;padding:11px 2px;border-bottom:1px solid #2c3f4b}.chronicle-row:last-child{border-bottom:0}.chronicle-row>span{color:var(--gold);font-size:11px;flex:0 0 48px}.chronicle-row>div{min-width:0}.story-panel{padding:22px}.story-panel.critical{border-color:#6c6048;background:linear-gradient(150deg,#26333a,#17232c)}.story-panel h2{font-size:25px;margin:5px 0 12px}.choices{display:grid;gap:9px;margin-top:15px}.choice-card{display:flex;align-items:flex-start;gap:12px;width:100%;padding:13px;background:#14222b;border:1px solid #3c515e;border-radius:11px;text-align:left;color:var(--text)}.choice-card:hover:not(:disabled){border-color:var(--gold);background:#24323a}.choice-icon{flex:0 0 29px;height:29px;display:grid;place-items:center;border:1px solid #7c6a48;border-radius:8px;color:var(--gold);font-weight:800}.choice-content{display:block;flex:1;min-width:0}.choice-content b{display:block;font-size:13px}.choice-content small{display:block;color:var(--muted);font-size:11px;margin-top:3px;line-height:1.55}.choice-content em{display:block;color:#c9bb99;font-size:10px;font-style:normal;margin-top:5px}.cost{align-self:center;color:var(--gold);font-size:11px;white-space:nowrap}.age-pill{font-size:10px}.page-heading{margin:2px 0 1px}.page-heading p{max-width:900px;color:var(--muted);font-size:13px}.talent-picks{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:15px 0}.talent-pick,.path-card{min-width:0;background:#14212a;color:var(--text);border:1px solid #3b4f5c;border-radius:12px;text-align:left;padding:15px}.talent-pick:hover,.path-card:hover{border-color:#a18b61}.talent-pick.selected,.path-card.selected{border-color:var(--gold);background:linear-gradient(140deg,#293831,#18252d);box-shadow:inset 0 0 0 1px #ac9363}.talent-top{display:flex;justify-content:space-between;align-items:center;gap:8px}.talent-rank{color:var(--rarity);border:1px solid var(--rarity);border-radius:7px;padding:3px 8px;font-size:11px;font-weight:800}.rarity{color:var(--rarity);border:1px solid var(--rarity);border-radius:20px;padding:3px 8px;font-size:10px;white-space:nowrap}.talent-pick h3{font-size:18px;margin:13px 0 7px}.talent-pick p{font-size:12px;color:#bfccd3;min-height:70px}.talent-effect{border-top:1px solid #364852;padding-top:9px;display:grid;gap:4px;font-size:11px;color:var(--muted)}.talent-effect b{color:var(--gold);font-size:10px}.path-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:14px 0}.path-card h3{color:var(--gold);font-size:17px}.path-card p{color:#c5d0d6;font-size:12px;min-height:62px}.path-effect{margin-top:12px;padding-top:9px;border-top:1px solid #334651;color:#dec99d;font-size:11px}.tutorial-inline{margin-top:14px;padding:12px 14px;border:1px solid #54745d;border-radius:9px;background:#1d3028}.sim-header{align-items:flex-start;flex-wrap:wrap}.sim-header p{margin:2px 0}.sim-header-right{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.sim-metrics{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}.sim-metrics>div{background:#182630;border:1px solid #354955;border-radius:10px;padding:10px;min-width:0}.sim-metrics b{display:block;font-size:17px;overflow-wrap:anywhere}.sim-metrics .progress-track{margin-top:7px}.year-control{border-color:#4d5c61}.controls{display:grid;gap:4px;min-width:180px}.control-label{font-size:10px;color:var(--muted);margin-top:2px}.segmented{display:flex;gap:4px;border:1px solid #374c58;padding:3px;border-radius:9px;background:#111d25}.segment{flex:1;border:1px solid transparent;border-radius:6px;background:transparent;color:var(--muted);padding:5px 7px;font-size:11px;white-space:nowrap}.segment.selected{background:#34403d;border-color:#88744f;color:#f0d49d}.log-list{display:grid;gap:0}.log-entry{padding:10px 2px;border-bottom:1px solid #2b3e49}.log-entry:last-child{border-bottom:0}.log-entry span{display:block;font-size:10px;color:var(--gold)}.log-entry p{font-size:12px;color:#c4cfd5;margin:4px 0 0;line-height:1.6}.death-screen{position:fixed;inset:0;z-index:9999;background:radial-gradient(ellipse at center,#0b1117,#000 72%);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;overflow:auto}.death-kicker{font-size:10px;letter-spacing:.25em;color:#9c9b9b}.death-symbol{font-size:50px;color:#5d6871;margin:12px 0}.death-screen h1{font-size:clamp(28px,6vw,42px)}.death-cause{max-width:700px;font-size:15px;color:#d7dadd;line-height:1.9}.death-sub{max-width:660px;font-size:12px;color:#7f8c95;margin:12px 0 25px}.settlement-summary{border-color:#796946}.points-big{display:grid;justify-items:end}.points-big b{font-size:28px;color:var(--gold);line-height:1.2}.points-big small{font-size:10px;color:var(--muted)}.point-breakdown{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:17px 0}.point-breakdown>div{background:#111d25;border:1px solid #324650;border-radius:9px;padding:11px}.point-breakdown span{display:block;color:var(--muted);font-size:11px}.point-breakdown b{font-size:18px;color:var(--gold)}.minor-title{font-size:14px;margin:19px 0 8px;color:#e7d19f}.outcome-list{padding-left:20px;color:#d3dde2;font-size:12px}.outcome-list li{margin:8px 0;line-height:1.6}.decision-recap{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.decision-recap article{padding:11px;background:#121e26;border:1px solid #354854;border-radius:9px}.decision-recap b{font-size:12px}.decision-recap p{font-size:11px;color:var(--muted);margin:4px 0}.decision-recap small{color:var(--gold);font-size:10px}.reward-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:13px 0}.reward-card{min-width:0;display:flex;flex-direction:column;justify-content:space-between;gap:12px;text-align:left;border:1px solid #3a4d59;border-radius:10px;padding:12px;background:#13212a;color:var(--text)}.reward-card:hover:not(:disabled){border-color:var(--gold)}.reward-card.bought{border-color:#63846d;background:#1b3027}.reward-card small{display:block;color:var(--gold);font-size:10px}.reward-card b{display:block;font-size:12px;overflow-wrap:anywhere}.reward-card p{font-size:10px;line-height:1.55;color:var(--muted)}.reward-cost{color:#e6cb94;font-size:11px;font-weight:800}.inherit-list{border:1px solid #354954;border-radius:10px;background:#111c24;padding:12px;margin:14px 0}.inherit-list>b{display:block;margin-bottom:7px}.inherit-chip{display:inline-block;background:#273a36;border:1px solid #547466;border-radius:7px;color:#cde7d4;padding:4px 7px;margin:3px;font-size:10px}.currency-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin:14px 0}.currency-tile{background:#111c24;border:1px solid #324650;border-radius:9px;padding:10px}.currency-tile small{font-size:10px}.currency-tile b{font-size:17px}.currency-tile.primary{border-color:#816b47}.filters{display:grid;grid-template-columns:minmax(0,1fr) 130px auto;gap:8px;margin-bottom:12px}.filters input,.filters select,.exchange-controls input,.exchange-controls select,.identity-card input{width:100%;min-width:0;background:#0f1b23;color:var(--text);border:1px solid #415661;border-radius:8px;padding:10px}.catalog-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}.catalog-card{background:#13212a;border:1px solid #344955;border-radius:10px;padding:12px;min-width:0}.catalog-card h3{font-size:15px;margin:11px 0 6px}.catalog-card p{font-size:11px;color:var(--muted);line-height:1.65;overflow-wrap:anywhere}.catalog-card details{border-top:1px solid #334651;padding-top:8px}.catalog-card summary{font-size:11px;color:var(--gold);cursor:pointer}.pager{display:flex;align-items:center;justify-content:center;gap:14px;margin-top:16px;color:var(--muted);font-size:12px}.archive-card{padding:14px 0;border-bottom:1px solid #30434e}.archive-card:last-child{border-bottom:0}.archive-card p{font-size:12px;color:var(--muted)}.archive-card small{font-size:10px;color:var(--gold)}.archive-outcomes{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.archive-outcomes span{font-size:10px;color:#cadbcf;background:#172820;border:1px solid #375343;border-radius:7px;padding:5px 7px}.empty-state{text-align:center;padding:30px 12px}.empty-state>div{width:54px;height:54px;display:grid;place-items:center;border:1px solid #7c6a49;border-radius:50%;font-size:25px;color:var(--gold);margin:auto auto 13px}.empty-state p{max-width:450px;margin:8px auto 14px;color:var(--muted);font-size:12px}.lore-places{grid-template-columns:repeat(4,minmax(0,1fr));margin:14px 0}.map-place-static{display:grid;justify-items:start;gap:4px;padding:12px;background:#13212a;border:1px solid #344955;border-radius:9px}.map-place-static>b{display:grid;place-items:center;border:1px solid #90784c;color:var(--gold);border-radius:50%;width:30px;height:30px}.map-place-static strong{font-size:12px}.map-place-static small{font-size:10px;color:var(--muted)}.faction-row{border-bottom:1px solid #324650;padding:8px 0}.faction-row b{color:var(--gold);font-size:12px}.faction-row p{font-size:11px;color:var(--muted);margin:2px 0}.realm-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.realm-row{display:flex;align-items:center;gap:10px;padding:10px;background:#13212a;border:1px solid #344854;border-radius:9px}.realm-row>span{font-size:14px;color:var(--gold);font-weight:800}.realm-row>div{flex:1;min-width:0}.realm-row b{font-size:12px}.realm-row small{display:block;color:var(--muted);font-size:10px;line-height:1.45}.realm-row em{color:var(--gold);font-size:10px;font-style:normal}.realm-row.current{border-color:var(--gold);background:#26342f}.rule-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.rule-grid article{padding:12px;border:1px solid #344955;border-radius:9px;background:#13212a}.rule-grid b{color:var(--gold)}.rule-grid p{font-size:11px;color:var(--muted)}.power-hero{text-align:center;padding:25px}.power-total{font-size:clamp(38px,7vw,58px);font-weight:900;color:var(--gold);line-height:1.2}.power-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:20px}.power-grid>div{padding:12px;background:#111d25;border:1px solid #324650;border-radius:9px}.power-grid b{font-size:18px;display:block}.quest-row{display:flex;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid #30434e}.quest-row:last-child{border-bottom:0}.quest-mark{width:34px;height:34px;flex:0 0 34px;border-radius:9px;border:1px solid #526571;background:#12202a;color:var(--gold);display:grid;place-items:center;font-size:17px}.quest-body{flex:1;min-width:0}.quest-body b{font-size:13px}.quest-body p{margin:3px 0;color:var(--muted);font-size:11px}.quest-body small{color:#bdc9ce;font-size:10px}.status-label.unlocked{border-color:#5f8669;color:#c3e5c9}.exchange-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(110px,.7fr) auto auto;gap:9px;align-items:end}.exchange-controls label{font-size:11px;color:var(--muted);display:grid;gap:5px}.settings-row{display:flex;align-items:center;justify-content:space-between;gap:15px;padding:14px 0;border-bottom:1px solid #30434e}.settings-row:last-child{border-bottom:0}.settings-row span{display:grid;gap:3px}.settings-row b{font-size:13px}.settings-row small{color:var(--muted);font-size:11px}.file-label{position:relative;overflow:hidden}.settings-meta{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.settings-meta span{font-size:10px;color:var(--muted);border:1px solid #364b57;padding:5px 8px;border-radius:7px}.footer{max-width:1396px;margin:0 auto;padding:0 22px 18px;display:flex;justify-content:space-between;gap:8px;color:#768994;font-size:10px}.intro-shell{min-height:100vh;max-width:1080px;margin:auto;display:flex;flex-direction:column;padding:21px 24px 17px}.intro-top,.intro-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px}.intro-body{width:100%;max-width:760px;margin:auto;padding:28px 0 40px}.intro-progress{height:3px;background:#273943;border-radius:9px;margin:15px 0 27px;overflow:hidden}.intro-progress i{display:block;height:100%;background:var(--gold);transition:width .2s}.intro-body h1{font-size:clamp(30px,5vw,48px);margin:8px 0 22px}.intro-text{font-size:15px;line-height:2.05;white-space:pre-line;color:#d4dfe4}.intro-controls{display:flex;justify-content:space-between;gap:10px;margin-top:32px}.intro-bottom{color:#778c98;font-size:10px}.identity-shell{justify-content:space-between}.identity-card{width:100%;max-width:600px;margin:auto;padding:28px;background:linear-gradient(145deg,#1f2e38,#15222b);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow)}.identity-card h1{margin:6px 0 12px}.identity-card>p{color:var(--muted);font-size:13px}.field-label{display:block;margin:22px 0 7px;font-size:12px;color:var(--gold)}.identity-preview{display:flex;gap:13px;align-items:center;margin-top:17px;padding:12px;border:1px solid #344853;border-radius:10px;background:#111c24}.portrait.large{height:53px;width:53px;display:grid;place-items:center;background:#273a43;border:1px solid #586c77;border-radius:11px;color:var(--gold);font-size:27px}.identity-preview>div:last-child{display:grid;gap:2px}.identity-preview b{font-size:15px}.identity-preview small{font-size:11px;color:var(--muted)}.tutorial-shell{min-height:100vh;display:grid;place-items:center;padding:24px;background:radial-gradient(ellipse at top,#243742,#0d151d 60%)}.system-dialog{width:min(100%,640px);padding:30px;background:linear-gradient(150deg,#24343e,#14212a);border:1px solid #6b6049;border-radius:16px;box-shadow:0 20px 80px #0005}.system-icon{display:grid;place-items:center;width:48px;height:48px;border:1px solid #88734f;border-radius:13px;color:var(--gold);font-size:25px;margin-bottom:17px}.tutorial-count{color:var(--soft);font-size:10px;margin-top:5px}.system-dialog h1{margin-top:14px}.system-dialog>p{color:#d3dde2;font-size:14px;line-height:1.9;white-space:pre-line;margin:17px 0}.system-note{border-left:2px solid var(--gold2);padding:10px 12px;background:#111d25;color:var(--muted);font-size:11px}.fatal{max-width:700px;margin:10vh auto;padding:25px;background:#2b2022;border:1px solid #855a5d;border-radius:12px}.fatal p{white-space:pre-wrap;color:#f1cccc}.footer span{white-space:normal}.plot-arc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.plot-arc-card{min-width:0;padding:14px;background:#13212a;border:1px solid #344955;border-radius:11px}.plot-arc-card h3{margin:9px 0 6px;color:#f0d49d;font-size:15px}.plot-arc-card p{font-size:12px;line-height:1.7;color:#c4d0d6;margin:5px 0 12px}.plot-arc-card .row{align-items:flex-start}.plot-arc-card small{font-size:10px;line-height:1.5}.plot-arc-card .progress-track{margin:10px 0 7px}.plot-arc-card .progress-track i{background:linear-gradient(90deg,#8fb6d6,#dfc07e)}@media(max-width:760px){.plot-arc-grid{grid-template-columns:1fr}}
@@ -49,7 +49,7 @@
     const attributes = {power:18,stamina:24,luck:15,family:12,aptitude:18,comprehension:20,health:72,reputation:2,mind:22};
     const wallet = Object.fromEntries(DATA.currencies.map(c => [c,0])); wallet['铜币'] = 600;
     return {
-      appVersion:'2.2.0', screen:'opening', page:'home', openingIndex:0, openingMode:'first', rebirthIndex:0,
+      appVersion:'2.3.0', screen:'opening', page:'home', openingIndex:0, openingMode:'first', rebirthIndex:0,
       name:'林砚', familyName:'林家', points:0, runs:0, runsStarted:0,
       meta:{identityDone:false,tutorialIndex:0,tutorialStarted:false,tutorialComplete:false,firstSimFree:true,firstStartReward:false,firstFinishReward:false,firstCarryReward:false,totalTalentRefreshes:0,systemLevel:1,firstBreakthroughReward:false},
       attributes, perks:[], legacySkills:[], inventory:[], inheritedMemories:[], worldHistory:[], history:[],
@@ -96,7 +96,7 @@
     parsed.world.stats=parsed.world.stats||parsed.attributes||{};parsed.world.wallet=parsed.world.wallet||{};
     parsed.world.flags=parsed.world.flags||{};parsed.world.completedNodes=Array.isArray(parsed.world.completedNodes)?parsed.world.completedNodes:[];
     if(parsed.run){parsed.run.stats=parsed.run.stats||{};parsed.run.wallet=parsed.run.wallet||{};parsed.run.flags=parsed.run.flags||{};parsed.run.completedNodes=Array.isArray(parsed.run.completedNodes)?parsed.run.completedNodes:[];}
-    parsed.appVersion='2.2.0';
+    parsed.appVersion='2.3.0';
     return parsed;
   }
   function tryLoad() {
@@ -104,7 +104,7 @@
       const raw = localStorage.getItem(STORE_KEY);
       if (!raw) return null;
       const parsed = JSON.parse(raw);
-      if (parsed && ['2.0.0','2.1.0','2.2.0'].includes(parsed.appVersion) && parsed.world && Array.isArray(parsed.history)) return migrateState(parsed);
+      if (parsed && ['2.0.0','2.1.0','2.2.0','2.3.0'].includes(parsed.appVersion) && parsed.world && Array.isArray(parsed.history)) return migrateState(parsed);
     } catch (_) { /* file:// storage may be disabled; game remains playable in memory */ }
     return null;
   }
@@ -338,20 +338,114 @@
     if(fx.location)target.location=String(fx.location);
   }
   function beginCrisis(target) { target.crisisDay=1;target.crisisReady=false;target.flags.crisisStartAge=target.age;appendLog(target,'七日危机开始。现实年龄不会因为危机倒退；每一天都要选择应对。','危机'); }
+  const CRISIS_TURNS = {
+    1:{title:'第一夜：赵家的人还没发现你',text:'院墙外传来铁靴声。赵家护卫正在清点矿道口，林家长辈还在争论消息真假。你有一夜时间先做一件真正有用的事。',actions:[
+      {id:'cr1-scout',title:'潜入后山，数清护卫与换岗时辰',desc:'得到关键情报，但被发现就会被追杀。'},
+      {id:'cr1-warn',title:'挨家敲门，先把老人孩子叫醒',desc:'家族准备度大幅提高，但可能被指责散播恐慌。'},
+      {id:'cr1-paper',title:'冒雨赶去县衙递状留档',desc:'提前建立官方记录，为之后求援铺路。'},
+      {id:'cr1-hide',title:'把族谱、药钱和孩子藏进废窑',desc:'不求翻盘，先给林家留下一条血脉退路。'}]},
+    2:{title:'第二夜：昨天留下的线索开始起作用',text:'你不能把昨天做过的事当作没发生。今晚的选择取决于你拿到的线索、是否惊动赵家，以及族人是否相信你。',actions:[
+      {id:'cr2-copy',title:'趁换岗抄下矿账，并藏两份副本',desc:'若已有调查线索，可获得强证据；也可能被巡夜人撞见。',when:f=>number(f.investigationProgress)>0},
+      {id:'cr2-shadow',title:'跟踪押运队，找出他们真正要抢的东西',desc:'揭开矿道之外的秘密；暴露会受伤并打草惊蛇。'},
+      {id:'cr2-witness',title:'带着已有证据去找县衙书吏',desc:'若证据扎实，官方态度会改变；若没有证据，只能留下一条线索。'},
+      {id:'cr2-move',title:'趁夜转移最脆弱的那批族人',desc:'提高撤离准备，付出路费，也会让赵家察觉有人在动。'}]},
+    3:{title:'第三日：家族开始分裂',text:'有人认为你危言耸听，有人已经收拾包袱。你必须决定把有限的时间和银钱押在谁身上；这会决定最后能救下谁。',actions:[
+      {id:'cr3-medicine',title:'把药钱花在伤者和孩子身上',desc:'降低后续伤亡风险，代价是失去可用于贿赂或逃亡的铜钱。'},
+      {id:'cr3-shen',title:'带上筹码去沈家，换一条撤离通道',desc:'沈家只认利益和证据；谈崩可能让赵家更早知道你在串联。'},
+      {id:'cr3-ledger',title:'把矿账藏进三处，任何一处都能作证',desc:'保护证据，后续县衙或沈家路线更可靠。'},
+      {id:'cr3-route',title:'摸清城外水沟与旧驿道',desc:'建立备用逃生路线，路上可能遭遇伏哨。'}]},
+    4:{title:'第四日：敌人已经开始搜院',text:'门外出现陌生脚印，厨房少了半袋米。赵家还没有动手，但他们正在收紧网。昨天留下的准备，今晚会决定你是先手还是猎物。',actions:[
+      {id:'cr4-fake',title:'放出假消息，把护卫引向东矿口',desc:'有机会调开敌方人手；失败会让对方确认你在抵抗。'},
+      {id:'cr4-evidence',title:'把证据送给县衙和沈家各一份',desc:'降低证据被单点销毁的风险，但信使可能被截。'},
+      {id:'cr4-burn',title:'烧掉最危险的账页，保住族人不被牵连',desc:'暂时降低追杀风险，却可能放弃将来翻案的机会。'},
+      {id:'cr4-trap',title:'在窄巷布置绊索与障碍，只求拖延半刻',desc:'不能击败强者，但可以给撤离争取时间；布置时可能受伤。'}]},
+    5:{title:'第五日：有人不肯走',text:'几名年轻族人认为撤退就是认输，一个孩子则死死攥住祖母的手不肯松开。你必须选出真正要守的东西，而不是再喊一句“准备撤离”。',actions:[
+      {id:'cr5-evacuate',title:'亲自带老人孩子先走，自己最后断后',desc:'大幅增加族人生还机会，你会失去部分财物并承担危险。'},
+      {id:'cr5-stage',title:'让年轻族人分批撤离，制造仍在守家的假象',desc:'兼顾人命和迷惑敌人，组织失误会导致队伍失散。'},
+      {id:'cr5-ally',title:'把全部情报交给盟友，换他接走一支族人',desc:'成功可保存一支血脉；代价是将家族命运交到别人手中。'},
+      {id:'cr5-hold',title:'留下几人死守祠堂，为撤离争取时间',desc:'高风险拖延战术；如果无路可退，自己可能受重伤。'}]},
+    6:{title:'第六夜：退路只剩最后一条',text:'远处火把连成一线，赵家已经封了主路。你必须让最后的计划落地。任何拖延，都会把明日的选择变成一场被动屠杀。',actions:[
+      {id:'cr6-route',title:'带队走废窑后的水道',desc:'若先前探过路线，成功率更高；否则可能走进死巷。'},
+      {id:'cr6-distract',title:'自己带少数人引开追兵',desc:'为主队争取时间，但这是整场危机里最危险的一夜。'},
+      {id:'cr6-witness',title:'把证人与账本送出城，自己留下断后',desc:'把翻案的可能留到未来，自己会承受追兵压力。'},
+      {id:'cr6-hide',title:'分散藏匿，暂时放弃携带财物',desc:'安全性较高，但家族会失去积蓄和一部分物资。'}]},
+    7:{title:'第七日：天亮之前作最后决定',text:'天还没亮，赵家的鼓声已经从矿道方向传来。林家老祖正往门外走，他知道自己大概率回不来。现在不是再准备一次，而是决定谁活着离开、谁留下拖住追兵。',actions:[
+      {id:'cr7-split',title:'立刻分成三队，任何一队被发现都不拖累另外两队',desc:'分散能保存更多人，却会让族人失去彼此照应。'},
+      {id:'cr7-hold',title:'自己留下拖延追兵，换族人先走',desc:'最危险的选择。战力不足时可能直接死亡，但成功能保下大批族人。'},
+      {id:'cr7-message',title:'把证据与求援信交给最后一名信使',desc:'放弃眼前的反击，把未来翻案机会留住。'},
+      {id:'cr7-final-route',title:'赌一把走最后的暗渠，全族撤离',desc:'若此前探过路线且准备充分，才有机会避免正面接战。'}]}
+  };
+  function getCrisisChoices(target,mode) {
+    if(mode==='reality') return DATA.simDailyActions;
+    const turn=CRISIS_TURNS[target.crisisDay]||CRISIS_TURNS[7];
+    const flags=target.flags||{};
+    const visible=turn.actions.filter(a=>!a.when||a.when(flags,target));
+    // Contextual variants make a repeated action physically unavailable on a later day.
+    const used=new Set(flags.crisisActionHistory||[]);
+    const choices=visible.filter(a=>!used.has(a.id));
+    return choices.length>=3?choices:visible;
+  }
+  function crisisActionOutcome(target,id) {
+    const f=target.flags, hasMoney=n=>(target.wallet?.['铜币']||0)>=n;
+    let text='';
+    switch(id){
+      case 'cr1-scout': f.investigationProgress=number(f.investigationProgress)+1;f.crisisScout=true;addStat(target,'comprehension',2);if(chance(.22)){f.zhaoAlert=true;addStat(target,'health',-3);text='你看清了护卫换岗，却踩断枯枝。身后立刻响起追赶声，你带伤翻回院墙。';}else text='你伏在矿石车底数清了三班护卫，还发现一条通往旧驿道的窄路。';break;
+      case 'cr1-warn': f.readiness=number(f.readiness)+2;f.familyWarned=true;addStat(target,'family',2);addStat(target,'mind',1);text='你挨家敲门把老人孩子叫醒。有人骂你多事，但至少今晚没人睡在最里面的厢房。';break;
+      case 'cr1-paper': f.countyContact=number(f.countyContact)+1;f.countyRelation='knows';addStat(target,'reputation',1);text='县衙书吏收了状纸，却警告你：没有证据，官府不会替林家和赵家拼命。';break;
+      case 'cr1-hide': f.readiness=number(f.readiness)+1;f.evacuateRoute=true;f.hiddenClanBook=true;addMoney(target,-10,'铜币');text='你把族谱、药钱藏进废窑石缝。那点家资没了，但林家这一支的根至少还在。';break;
+      case 'cr2-copy': f.investigationProgress=number(f.investigationProgress)+2;f.mineEvidence='strong';if(!target.items.includes('矿账副本'))target.items.push('矿账副本');if(chance(.20)){f.zhaoAlert=true;addStat(target,'health',-4);text='你抄出了完整账目，却被夜巡撞见。你带伤逃回，赵家已知道有人掌握证据。';}else text='矿账被你拆成两份，藏在不同地方。夜风吹熄油灯时，最后一处数字也终于对上。';break;
+      case 'cr2-shadow': f.investigationProgress=number(f.investigationProgress)+1;f.chaserClue=true; if(chance(.28)){f.zhaoAlert=true;addStat(target,'health',-5);text='你记下押运路线，却被暗哨追过两条巷子，肩头留下刀口。';}else text='押运队并非只运矿石：一只箱子里装着武馆名册与几封被撕过的信。';break;
+      case 'cr2-witness': f.countyContact=number(f.countyContact)+1;f.countyRelation=f.mineEvidence==='strong'?'evidence':'knows';addStat(target,'reputation',1);text=f.mineEvidence==='strong'?'书吏看见可核验的账目，第一次把你的话写进了正式卷宗。':'书吏只收下口供，证据仍不足；你至少留下一条能追查的线索。';break;
+      case 'cr2-move': f.readiness=number(f.readiness)+2;f.evacuateRoute=true;addMoney(target,-8,'铜币');text='两辆不起眼的旧车被推到后门。第一批人已经离开，赵家的探子也开始留意林家后院。';break;
+      case 'cr3-medicine': if(hasMoney(12)){addMoney(target,-12,'铜币');addStat(target,'health',6);f.medicalSupplies=true;text='伤药全部用在孩子和伤者身上。你清点空药瓶时才意识到，能用于买通路口的钱已经不多。';}else{addStat(target,'health',-2);text='药钱不够，你拆开旧布给伤者止血。你救不了所有人，只能先让最虚弱的人撑过今晚。';}break;
+      case 'cr3-shen': f.shenContact=number(f.shenContact)+1;if(chance(f.mineEvidence==='strong'?.70:.32))f.shenRelation='cooperation';else f.shenRelation='cautious';text=f.shenRelation==='cooperation'?'沈家答应开一条侧门，但条件是你交出账目副本。盟友有了，筹码也不再只属于你。':'沈家不肯押上整支家族。对方只给了路线和半袋粮，让你别把希望都押在别人身上。';break;
+      case 'cr3-ledger': if(f.mineEvidence!=='none')f.mineEvidence='strong';f.ledgerHidden=true;if(!target.items.includes('密封矿账'))target.items.push('密封矿账');text='三份账页分别藏进墙缝、药箱和旧井。就算你今夜出事，也不可能有人一次毁掉所有证据。';break;
+      case 'cr3-route': f.evacuateRoute=true;f.routeKnown=true;if(chance(.18)){f.zhaoAlert=true;text='你摸清水沟出口，却被守夜人看见。路线还在，但赵家开始封城。';}else text='旧驿道下面有一段废弃排水渠，足够让身形瘦小的人通过。你终于有了真正的退路。';break;
+      case 'cr4-fake': if(f.investigationProgress>0&&chance(.70)){f.guardsDistracted=true;f.readiness=number(f.readiness)+1;text='假消息让赵家两名头目带人扑向东矿口，后院空出了不到半个时辰。';}else{f.zhaoAlert=true;addStat(target,'mind',-2);text='对方识破了调虎离山，反而开始逐户搜查。你争取到的不是时间，而是一条新的追杀令。';}break;
+      case 'cr4-evidence': if(f.mineEvidence==='strong'||f.mineEvidence==='medium'){f.countyRelation='evidence';f.shenRelation=f.shenRelation||'cautious';text='证据各送一份。哪怕一个收件人反悔，另一份也仍在。你第一次觉得自己有可能活着把这件事讲完。';}else{f.countyRelation='knows';text='信使带回的回话很冷：没有能核验的证据，谁都不肯为林家出头。';}break;
+      case 'cr4-burn': f.ledgerDestroyed=true;f.mineEvidence='none';f.readiness=number(f.readiness)+1;addStat(target,'mind',2);text='你亲手烧掉最危险的账页。火光里，翻案的可能正在消失，但追杀的理由也少了一条。';break;
+      case 'cr4-trap': f.trapsSet=true;f.readiness=number(f.readiness)+1;if(chance(.25)){addStat(target,'health',-4);text='绊索布好时你划伤了手。障碍不会杀死后天境强者，却足以让追兵慢半拍。';}else text='窄巷里的绊索被你藏进雨水和泥里。只要追兵不知情，它就能换来几息时间。';break;
+      case 'cr5-evacuate': f.readiness=number(f.readiness)+2;f.evacuateRoute=true;f.familySurvivors='many';f.evacuating='direct';addMoney(target,-8,'铜币');text='你把老人孩子推上车，自己回身关门。有人哭着问你还回来吗，你没有回答。';break;
+      case 'cr5-stage': f.readiness=number(f.readiness)+1;f.evacuateRoute=true;f.familySurvivors=f.familySurvivors||'some';f.evacuating='staggered';text='一队走正门，一队混进药材车。队伍分散了，但赵家的探子暂时分不清谁才是要紧的人。';break;
+      case 'cr5-ally': if(f.shenRelation==='cooperation'){f.familySurvivors='many';f.allyEvacuation=true;text='沈家按约派车接走一支族人。代价是账本和人情都交了出去，但至少有人能活下去。';}else{f.shenRelation='cautious';f.familySurvivors=f.familySurvivors||'some';text='没有盟约，沈家不肯接走所有人。只一辆车停在巷口，能带走的人少得可怜。';}break;
+      case 'cr5-hold': f.guardsDistracted=true;f.readiness=number(f.readiness)+2;f.holdTheLine=true;if(chance(.24)){addStat(target,'health',-6);f.injured=true;text='你和几名年轻族人守住祠堂台阶，直到箭钉进门柱。你带伤退下，后面的人终于撤出了院子。';}else text='障碍撑了半刻钟。你没有赢，但把追兵最先冲进来的时间拖慢了。';break;
+      case 'cr6-route': if(f.routeKnown||f.evacuateRoute){f.evacuateRoute=true;f.readiness=number(f.readiness)+2;text='熟悉的暗渠没有把你带进死巷。你摸到城外时，天边已经泛白。';}else{f.zhaoAlert=true;addStat(target,'health',-5);text='暗渠在中途塌了一段。你们被迫折返，身后已经传来追兵喊声。';}break;
+      case 'cr6-distract': f.guardsDistracted=true;f.readiness=number(f.readiness)+2;f.injured=true;addStat(target,'health',-7);text='你在街口故意撞翻灯架，引着追兵追了两条街。刀锋擦过肋下，你终于在天亮前甩开了他们。';break;
+      case 'cr6-witness': if(f.mineEvidence==='strong'||f.mineEvidence==='medium'){f.evidenceEscaped=true;f.countyRelation='evidence';if(!target.items.includes('出城证据包'))target.items.push('出城证据包');text='证据包离城了。你不知道自己能否活到翻案那天，但这一次赵家无法把所有声音都掐灭。';}else{text='信使带着几页零碎记录离开，证据仍不够完整，但事情总算留下了尾巴。';}break;
+      case 'cr6-hide': f.evacuateRoute=true;f.readiness=number(f.readiness)+1;addMoney(target,-12,'铜币');text='你放弃了箱子、武器和大半积蓄，只带走能背动的干粮与族谱。逃亡第一次变成真的。';break;
+      case 'cr7-split': f.evacuateRoute=true;f.familySurvivors='many';f.readiness=number(f.readiness)+1;text='三队人分别从暗渠、药材车和城西小门离开。你看着最后一盏灯消失，知道家已经不是那个家了。';break;
+      case 'cr7-hold': f.holdTheLine=true;f.guardsDistracted=true;f.readiness=number(f.readiness)+2;addStat(target,'health',-10);if(chance(.34)){f.prematureDeath=true;target.deathReason='你留在门前拖住赵家追兵。刀光压碎了最后一口气；林家的人能否逃走，已与你无关。';text='你听见身后车轮远去，随后世界只剩下一片白光。';}else{text='你被刀背打碎肩骨，却没有倒下，直到最后一辆车越过城门。你活了下来，但再也不能把自己当成没见过血的人。';}break;
+      case 'cr7-message': if(f.mineEvidence==='strong'||f.mineEvidence==='medium'){f.evidenceEscaped=true;f.countyRelation='evidence';text='信使把证据缝进衣襟。你让他只管跑，不许回头。翻案很远，但至少还有未来。';}else{text='你把零碎口供交给信使。证据不够，却能让后来的人知道这场灾祸不是一场意外。';}break;
+      case 'cr7-final-route': if(f.routeKnown||f.evacuateRoute){f.familySurvivors='many';f.evacuatedAtDawn=true;text='暗渠尽头是结冰的河滩。最后一批人爬上岸时，林家祠堂的方向升起了黑烟。你没有回头。';}else{f.familySurvivors='some';f.zhaoAlert=true;addStat(target,'health',-8);text='你押错了暗渠，出口被石头封住。队伍在天亮前分散逃命，只带走了少部分人。';}break;
+    }
+    return text;
+  }
   function handleDailyAction(mode,actionId) {
     const target=currentTarget(mode);if(!target||!target.crisisDay)return;
-    const action=DATA.simDailyActions.find(x=>x.id===actionId)||DATA.simDailyActions[0]; const f=target.flags;
-    switch(actionId){
-      case 'investigate': f.investigationProgress=number(f.investigationProgress)+1;addStat(target,'comprehension',1);if(chance(.36))f.mineEvidence='medium';if(f.investigationProgress>=3)f.mineEvidence='strong';break;
-      case 'warn-family': f.readiness=number(f.readiness)+1;addStat(target,'family',1);addStat(target,'mind',1);break;
-      case 'county':f.countyContact=number(f.countyContact)+1;addStat(target,'reputation',1);if(f.mineEvidence)f.countyRelation='knows';break;
-      case 'shen':f.shenContact=number(f.shenContact)+1;addStat(target,'reputation',1);if(chance(.28))f.shenRelation='cooperation';break;
-      case 'train':addProgress(target,4);addStat(target,'stamina',-1);break;
-      case 'hide':f.readiness=number(f.readiness)+1;addMoney(target,-5,'铜币');if(chance(.3))f.evacuateRoute=true;break;
+    const f=target.flags||(target.flags={});let action,text='';
+    if(mode==='simulation'&&String(actionId).startsWith('cr')) {
+      const turn=CRISIS_TURNS[target.crisisDay];action=turn?.actions.find(a=>a.id===actionId);
+      if(!action)return;
+      f.crisisActionHistory=f.crisisActionHistory||[];f.crisisActionHistory.push(actionId);
+      text=crisisActionOutcome(target,actionId)||action.desc;
+      f.lastCrisisAction=actionId;
+      appendLog(target,`第${target.crisisDay}日 · ${action.title}。${text}`,'七日危机·行动结果');
+      if(f.prematureDeath){state.deathMode=mode;state.autoArmed=false;stopAutoTimer();state.screen='death';state.message='';save();render();return;}
+    } else {
+      action=DATA.simDailyActions.find(x=>x.id===actionId)||DATA.simDailyActions[0];
+      switch(actionId){
+        case 'investigate': f.investigationProgress=number(f.investigationProgress)+1;addStat(target,'comprehension',1);if(chance(.36))f.mineEvidence='medium';if(f.investigationProgress>=3)f.mineEvidence='strong';break;
+        case 'warn-family': f.readiness=number(f.readiness)+1;addStat(target,'family',1);addStat(target,'mind',1);break;
+        case 'county':f.countyContact=number(f.countyContact)+1;addStat(target,'reputation',1);if(f.mineEvidence)f.countyRelation='knows';break;
+        case 'shen':f.shenContact=number(f.shenContact)+1;addStat(target,'reputation',1);if(chance(.28))f.shenRelation='cooperation';break;
+        case 'train':addProgress(target,4);addStat(target,'stamina',-1);break;
+        case 'hide':f.readiness=number(f.readiness)+1;addMoney(target,-5,'铜币');if(chance(.3))f.evacuateRoute=true;break;
+      }
+      text=action.desc;appendLog(target,`危机第${target.crisisDay}日：${action.title}。${text}`,'七日危机');
     }
-    target.days=number(target.days)+1;appendLog(target,`危机第${target.crisisDay}日：${action.title}。${action.desc}`,'七日危机');
-    if(target.crisisDay>=7){target.crisisDay=0;target.crisisReady=true;target.pendingNode='crisis-attack';setMessage('七日已过，赵家老祖登门。自动推演暂停，请处理重大抉择。');}
-    else target.crisisDay++;
+    target.days=number(target.days)+1;
+    if(target.crisisDay>=7){target.crisisDay=0;target.crisisReady=true;target.pendingNode='crisis-attack';setMessage('第七日结束。你做过的每一件事都会影响撤离、证据和生还者；赵家老祖已经登门。');}
+    else {target.crisisDay++;const nextTurn=mode==='simulation'?CRISIS_TURNS[target.crisisDay]:null;setMessage(nextTurn?`${nextTurn.title} ${text}`:`危机进入第${target.crisisDay}日。`);}
     if(mode==='reality')target.pendingNode=target.crisisDay===0?'crisis-attack':null;
     save();render();afterDecision(mode);
   }
@@ -380,6 +474,8 @@
     target.pendingNode=null; target.crisisReady=false;
     const statText=statEffectsText(fx?.stats);
     target.decisions=target.decisions||[];target.decisions.push({nodeId,nodeTitle:node.title,optionId:opt.id,optionTitle:opt.title,success,result,statText,age:target.age,mode});
+    target.flags=target.flags||{};target.flags.lastMajorChoice={nodeId,optionId:opt.id,success,age:target.age};
+    target.flags.branchEcho=`你曾选择「${opt.title}」：${result}`;target.flags.branchEchoUntilAge=Number(target.age||0)+1;
     appendLog(target,`${node.title} · ${opt.title}。${result}（${success?'行动成功':'行动受挫'}）`,'重大抉择');
     if(nodeId==='crisis-plan') beginCrisis(target);
     if(nodeId==='crisis-attack') {
@@ -487,6 +583,89 @@
     const survivalCharge=Number(target?.flags?.survivalAidCharges||0)>0?.05:0;
     return Math.max(0,Math.min(.95,base-staticReduction-survivalCharge));
   }
+  const CINEMATIC_SCENES = [
+    {id:'bridge-ambush',age:22,category:'高燃战斗',title:'断桥夜袭：雨里只剩三息',prompt:'夜雨砸在断桥上。你押送的不是金银，而是仅存的矿账副本和几名伤者。火箭突然钉进车厢，前后两侧都有人影。领头的刀客擦掉刀上的雨水：“把账交出来，留你一条全尸。”你听见身后少年在发抖，桥下河水正在涨。你只有三息决定谁先活。',options:[
+      {title:'拔刀硬挡，拿命替众人争三息',preview:'正面战斗，高燃但极危险。失败可能当场殒命；战力和天赋防死效果会影响风险。',chance:.43,fatalChance:.48,success:{text:'你迎着刀锋踏进雨幕，第一刀震得虎口裂开，第二刀削断对方腕骨。你没有赢下整场战斗，却用三息把追兵挡在桥头。血顺着刀柄往下流，你终于知道什么叫真正的生死线。',stats:{power:3,stamina:-3,health:-5},flags:{bridgeStand:true,battleScar:true},skill:'断桥三息刀'},failure:{text:'你判断慢了半拍，刀光穿透雨幕。你拖着伤躯把账册推过桥栏，自己却被逼到桥边，下一刀直奔咽喉。',stats:{health:-18,stamina:-8},flags:{battleScar:true,wounded:true}}},
+      {title:'借悟性找桥柱死角，反手截断追兵退路',preview:'依赖悟性与此前调查线索，成功可打开新的战斗路线。',chance:.58,statBonus:{comprehension:.003},success:{text:'你看出桥柱底下的旧楔已经松动，借刀背一敲，木梁轰然倾斜。追兵不得不退，你趁乱带人滚进河滩。',flags:{bridgeBroken:true,escapeRoute:true},item:'断桥机关图'},failure:{text:'木梁只裂开一条缝。追兵趁你分神扑上来，所有人只能丢下车厢跳进冰水。',stats:{health:-7},flags:{wounded:true,bridgeLost:true}}},
+      {title:'先救被钉在车辕上的少年，再找生路',preview:'放弃击败敌人，优先救人；失败可能救不了他，但主角通常能撤出。',chance:.66,success:{text:'你割开缰绳，把少年拖进桥洞。最后一支箭擦过他的耳边钉进你肩头。他活下来了，死死抓住你袖口，嘶哑地说自己记得追兵腰间的印记。',stats:{health:-4,mind:2},flags:{savedStranger:true,childRescued:true},item:'陌生少年的血印线索'},failure:{text:'你扑到车辕时，少年已经没了呼吸。你把他的眼睛合上，背着这具越来越冷的身体逃出箭雨。',stats:{mind:-5,health:-2},flags:{strangerLost:true,griefSeed:true}}}
+    ]},
+    {id:'last-lamp',age:28,category:'悲伤剧情',title:'寒灯将灭：师父最后一夜',prompt:'旧武师的屋里没有点灯，只有炉底残火。他的胸口被那夜留下的暗伤撕开，咳出的血把白布浸成暗红。他把半截木刀塞给你：“我教了你十年，没教你怎么送人走。”药铺说只剩一份续命药——你知道它未必能救他，却再也买不到第二份。窗外弟子们正等着你决定。',options:[
+      {title:'把唯一的续命药喂给师父',preview:'救人成功率受医术、悟性与运气影响；失败时会失去师父，也失去这份药。',chance:.52,statBonus:{comprehension:.002},success:{text:'师父的指尖终于回暖。他没有立刻好转，只是用那只颤抖的手替你把木刀缠好：“别为了证明我没白教你，就把命扔在别人刀下。”',flags:{mentorSaved:true,mentorOath:true},skill:'旧武师的刀意'},failure:{text:'药汤灌下去后，他只清醒了一盏茶。师父看着你，像是想说什么，最后只把木刀推回你掌心。灯芯烧断时，屋里没有人哭出声。',stats:{mind:-8},flags:{mentorDead:true,griefSeed:true},item:'旧武师半截木刀'}} ,
+      {title:'不再赌药，守在床边听完最后一课',preview:'师父必然离世，但你会得到一段真正改变战斗方式的传承。',chance:1,success:{text:'师父撑着最后一口气，把三式刀法讲到天亮。讲完第一式，他已无法呼吸。你跪在床边，直到窗纸发白；从此每次拔刀，都知道那个人再也不会纠正你。',stats:{comprehension:4,mind:-4},flags:{mentorDead:true,mentorOath:true,griefSeed:true},skill:'旧武师的最后三式',item:'旧武师半截木刀'}},
+      {title:'把药让给院中十七名染疫的孩子',preview:'你选择救更多人；师父的结局会变成无法撤回的因果。',chance:1,success:{text:'药被分成十七份，孩子们的喘息慢慢平稳。师父听到院外哭声渐止，嘴角竟松了一下。天亮前，他独自走了；你救了十七条命，却再也没机会说声谢。',stats:{family:3,mind:-6},flags:{mentorDead:true,villagersSaved:true,griefSeed:true},item:'旧武师半截木刀'}}
+    ]},
+    {id:'arena-rematch',age:35,category:'天骄对决',title:'生死擂台：这一刀决定名声',prompt:'擂台下挤满了人。昔日被你放走的对手站在血红旗幡下，拿着你曾经用过的招式羞辱你。他的刀尖轻轻点地：“退下去，我可以让你活着走。”台下有人喊你的名字，也有人只想看一场血。你看得出他的右腿旧伤复发，但你自己也已疲惫三日。',options:[
+      {title:'正面接下他的三刀，不退半步',preview:'硬碰硬的高燃决斗；失败可能被当众废掉甚至横死。',chance:.48,fatalChance:.35,success:{text:'第一刀压住你的肩，第二刀削开衣襟，第三刀落下时你反手扣住他的腕子。全场安静了一瞬，随后山呼海啸。你没有靠天赋碾压他，是用挨过的每一刀赢下了这一刻。',stats:{power:4,reputation:8,health:-4},flags:{rivalDefeated:true,arenaFame:true},skill:'三刀不退'},failure:{text:'你错估了他藏起来的后手。擂台木板被血染红，欢呼声像从很远的地方传来。你活下来了，却必须用很长时间才能重新握稳刀。',stats:{health:-16,reputation:-8},flags:{rivalScarredYou:true,wounded:true}}},
+      {title:'故意露出破绽，引他踩中旧伤',preview:'悟性高或曾获得刀法传承时更稳，不必以命换名。',chance:.64,statBonus:{comprehension:.002},success:{text:'你用两次虚招逼他追击，第三步时他旧伤崩裂。你没有杀他，只用刀背敲落他的兵刃。你赢了，但没有把他的命也当成奖品。',stats:{comprehension:2,reputation:5},flags:{rivalDefeated:true,rivalSpared:true}},failure:{text:'他早已用绷带固定旧伤，反而借你的虚招反切回来。你主动跳下擂台认负，保住了命，却也把破绽留给了整个武馆。',stats:{reputation:-5,mind:1},flags:{rivalRemains:true}}},
+      {title:'当众放下兵器，转身离开擂台',preview:'放弃名声换取生存，可能开启寂寞独行的路线。',chance:1,success:{text:'你把刀放在台上，连头也没回。身后嘲笑声逐渐远去。你知道自己失去了一部分名声，却第一次不再为了别人一句话决定下一步。',stats:{reputation:-3,mind:4},flags:{loneRoad:true,rivalRemains:true}}}
+    ]},
+    {id:'burning-city',age:42,category:'高燃守城',title:'焚城十息：身后是万人',prompt:'城门被妖兽撞开，火从屋檐一路舔到粮仓。城墙上的旗帜烧得只剩半面，守将已死，传令兵跑到你面前时吐着血：“西门只能再撑十息。”身后是几千名来不及撤走的百姓，前方是冲进火里的兽群。你听见孩子敲门，也听见城墙开始崩裂。',options:[
+      {title:'登上缺口死守，给百姓争出十息',preview:'最热血也最危险的正面战斗。实力不足或身负重伤时，死亡风险会显著提高。',chance:.42,fatalChance:.52,success:{text:'你踏进火海，气血烧得像要从骨头里炸开。第一头妖兽撞上刀锋，第二头被你踹回缺口。第十息落下时，最后一队百姓冲出西门，你的手已经握不住刀。',stats:{power:6,health:-10,reputation:10},flags:{cityHeld:true,villagersSaved:true,battleScar:true},skill:'十息守城'},failure:{text:'兽爪撕开防线。你听见身后有人喊“快走”，却再也分不清那是谁。火焰与黑影一同压下来。',stats:{health:-24,mind:-5},flags:{cityBroken:true,wounded:true}}},
+      {title:'放弃城墙，带百姓钻入旧水渠',preview:'不争一时英雄名，优先救人；此前探路与医药准备会产生帮助。',chance:.70,success:{text:'你砸开封死的水渠，先把孩子塞下去，再把受伤的人一个个拖过去。等最后一个老人爬出城外，城墙已在你身后塌成火山。',stats:{stamina:-6,mind:3},flags:{villagersSaved:true,cityAbandoned:true,evacuateRoute:true}},failure:{text:'水渠被落石堵住一半。你带走了最前面的人，却没能把所有人都救出来；身后传来的哭喊成了此后许多年的梦。',stats:{mind:-7,health:-5},flags:{cityBroken:true,griefSeed:true}}},
+      {title:'引爆粮仓，把兽群与城门一起埋掉',preview:'牺牲粮仓和一片街区，换取封住兽潮的机会。',chance:.62,success:{text:'火焰吞掉粮仓，轰鸣把兽群埋在砖石下。城保住了，东街却再也回不来。幸存者没有欢呼，只望着烧红的天。',stats:{reputation:4,mind:-4},flags:{cityHeld:true,sacrificedDistrict:true,villagersSaved:true}},failure:{text:'爆炸提前了。兽群被震退，却有一段城墙先一步垮塌。你活着走出浓烟，知道这一夜的代价会跟你很久。',stats:{health:-9,mind:-6},flags:{cityBroken:true,sacrificedDistrict:true}}}
+    ]},
+    {id:'grave-of-old-days',age:49,category:'悲伤·往事',title:'故人冢：世间已经没有旧人',prompt:'你回到曾经停留的县城，街巷已经重修，牌匾换了三轮。旧武师的木屋成了卖酒的小铺，桥洞里再也没有那个抓住你袖口的少年。碑上几行字被风雨磨得难以辨认。卖纸钱的老人问你：“客人，你要祭谁？”你突然发现，自己已经很久没有人能叫出少年的名字。',options:[
+      {title:'把旧木刀与名字一起埋进碑下',preview:'接受失去，不再让遗憾阻止后来的人生。',chance:1,success:{text:'你亲手把旧木刀埋下。没有天雷，没有异象，只有土落在刀鞘上发出的闷响。你终于哭出声来，哭完以后，路还是要走。',stats:{mind:5,health:1},flags:{griefAccepted:true,loneRoad:false}}},
+      {title:'沿着旧日线索追查，看看是否有人活下来',preview:'若曾保存证据、救过陌生人或结下盟约，有机会找到新的回应。',chance:.58,success:{text:'你找到一封被压在旧卷宗里的信。有人记得那夜的名字，也记得你做过什么。迟来的消息不能让故人回来，却让你知道自己并非独自记得。',stats:{comprehension:3,mind:3},flags:{oldDebtRepaid:true,griefAccepted:true}},failure:{text:'卷宗早已被虫蛀空。你坐到天黑，终于承认不是每一个问题都有答案。',stats:{mind:-2},flags:{loneRoad:true,griefSeed:true}}},
+      {title:'不留姓名，放下一袋药钱便离开',preview:'把悲伤化成默默偿还的因果，后人未必知道你来过。',chance:1,success:{text:'你把药钱放在门槛下，没有留下名字。第二天，店门口多了一盏灯。没人知道是谁点的，你也没有回头。',stats:{mind:4,family:2},flags:{quietGoodDeed:true,loneRoad:true}}}
+    ]},
+    {id:'snow-alone',age:58,category:'寂寞如雪',title:'长夜无故人：天下记得你的名字，却无人认识你',prompt:'你站在雪岭之巅，脚下城市换了数代人，故友的墓碑被积雪埋到只剩一角。年轻修士在山门外谈论你的传说，把你说成不食人间烟火的高人。他们不知道你还记得某个雨夜、某个药灯、某个人抓紧你袖口的温度。你已经强到无人敢与你并肩，却找不到一个可以不必解释的人。',options:[
+      {title:'斩断旧物与旧名，从此只问大道',preview:'获得更坚定的修行路线，代价是主动封存人世牵挂。',chance:1,success:{text:'你把旧木刀放在雪下，转身离开。雪没有留下脚印。天下从此少一个有故人的人，多一个只向前走的影子。',stats:{mind:8,comprehension:4},flags:{loneRoad:true,closedHeart:true},skill:'寂雪道心'}},
+      {title:'收下一个弟子，把你失去的东西交给后来者',preview:'若有过失败、失去或救人的经历，能把孤独变成传承。',chance:.72,success:{text:'弟子问你为何总在雪夜醒来。你第一次没有把他赶走，只说：“因为我曾经没能救下所有人。”那一夜之后，山门多了一盏长明灯。',stats:{family:5,mind:4},flags:{discipleTaken:true,lonelySoftened:true},skill:'长夜传灯'},failure:{text:'你试着教他，却发现自己只能教招式，教不了如何面对离别。弟子离开后，雪岭仍只剩你一个人。',stats:{mind:-3},flags:{loneRoad:true}}},
+      {title:'回到人间，找一个地方安静生活',preview:'放弃追逐更高名望，换回日常的温度。',chance:1,success:{text:'你收起名号，住进城外一间旧屋。清晨有人敲门问药，黄昏有人送来热汤。你终于不再需要所有人仰望你，只需要有人记得你明天还要吃饭。',stats:{mind:6,health:3},flags:{quietRetirement:true,lonelySoftened:true}}}
+    ]}
+  ];
+  function queueCinematicScene(target) {
+    if(!target||target.pendingScenario||target.crisisDay||target.flags?.crisisResolved===false)return false;
+    target.flags=target.flags||{};const seen=new Set(target.flags.cinematicSeen||[]);
+    const available=CINEMATIC_SCENES.filter(scene=>!seen.has(scene.id)&&Number(target.age||0)>=scene.age&&(!scene.condition||scene.condition(target)));
+    if(!available.length)return false;
+    const scene=available[0];
+    target.pendingScenario=personalizeCinematicScene(scene,target);
+    target.pendingScenario.cinematicId=scene.id;
+    target.pendingScenario.category=scene.category;
+    return true;
+  }
+  function personalizeCinematicScene(source,target) {
+    const scene=JSON.parse(JSON.stringify(source)),f=target.flags||{},skills=target.skills||[];
+    // The same dramatic event is reframed by what the player did earlier; old decisions are not forgotten.
+    if(scene.id==='bridge-ambush') {
+      if(f.mineEvidence==='strong')scene.prompt='夜雨砸在断桥上。你怀里的矿账副本已经足够让赵家付出代价，所以今晚他们不打算留活口。火箭钉进车厢，前后两侧都是人影。领头的刀客擦掉刀上的雨水：“把账交出来，留你一条全尸。”你听见伤者在发抖，桥下河水正在涨。你只有三息决定谁先活。';
+      if(f.mineEvidence==='strong'||f.chaserClue||f.routeKnown||f.crisisScout)scene.options.push({title:'用此前摸清的矿道侧路反设伏',preview:'这是调查路线的专属选项；线索越完整，成功率越高。',chance:.68,statBonus:{comprehension:.002},success:{text:'你没有正面迎刀，而是按此前记下的换岗时辰绕到桥柱后。追兵被迫分散，你趁他们换位救下伤者，也保住了账本。',stats:{comprehension:2,reputation:2},flags:{bridgeBroken:true,escapeRoute:true,bridgeAmbushCountered:true},skill:'矿道反伏经验'},failure:{text:'你记住的路线被临时封死。反设伏变成仓促撤退，你保住了账本，却让追兵看清你的退路。',stats:{health:-5},flags:{wounded:true,zhaoAlert:true}}});
+    }
+    if(scene.id==='last-lamp') {
+      if(skills.includes('基础药理')||f.herbKnowledge||f.medicalSupplies){scene.prompt='旧武师的屋里没有点灯，只有炉底残火。你凭曾经学过的药理，已经看出他的暗伤不是普通风寒。药铺只剩一份续命药，药性你能辨出七成，却仍不敢保证能救命。师父把半截木刀塞进你手里：“我教了你十年，没教你怎么送人走。”窗外弟子们等着你决定。';scene.options[0].chance=.70;scene.options[0].preview='你曾学过药理或准备过药材，救人的把握提高，但仍不能保证一定成功。';}
+      if(f.mentorDead)scene.prompt='你又一次走进旧武师的屋子——不为救人，只为收拾那盏还没熄透的灯。床沿留着干涸血迹，半截木刀靠在墙边。门外新弟子问你要不要把师父的刀法传下去，你却想起自己当时没有说出口的那句话。';
+    }
+    if(scene.id==='arena-rematch') {
+      if(f.battleScar||skills.includes('断桥三息刀')||skills.includes('旧武师的最后三式')){scene.options[0].chance=.59;scene.options[0].preview='你经历过真正的生死战或得过师承，知道何时承刀、何时反击，正面对决的把握提高。';}
+      if(f.rivalDefeated)scene.prompt='曾经败在你刀下的人重新站上擂台。他没有忘记那次羞辱，也没有忘记你最后留了他一命。人群喊着复仇的口号，而他只盯着你：“这次我不想再输给你的怜悯。”';
+    }
+    if(scene.id==='burning-city') {
+      if(f.routeKnown||f.evacuateRoute){scene.options[1].chance=.84;scene.options[1].preview='你已有可用的撤离路线，能更快把百姓带出城；仍要付出城池和物资的代价。';scene.prompt='城门被妖兽撞开，火从屋檐舔到粮仓。你当年勘过的水渠就在脚下，然而西门只剩十息。守将已经倒下，传令兵吐着血：“再晚一刻，整座城都会被封死。”你知道退路在哪里，也知道没人能把所有人都带走。';}
+      if(f.rivalDefeated||f.arenaFame)scene.prompt='城门被妖兽撞开，火从屋檐舔到粮仓。曾经在擂台上为你欢呼的人，如今挤在城门后等你下令。传令兵吐着血：“西门只能再撑十息。”你曾经赢过一场只为名声的战斗；今晚这场战斗没有观众，只有要活着出去的人。';
+    }
+    if(scene.id==='grave-of-old-days') {
+      if(f.savedStranger&&!f.strangerLost)scene.prompt='你回到曾经停留的县城，街巷已经重修，牌匾换了三轮。你当年救下的少年早已长大，却没能赶上最后一次告别；门口只留下他写过的几行字。旧武师的木屋也成了卖酒的小铺。卖纸钱的老人问你：“客人，你要祭谁？”你突然发现，自己已经很久没有人能叫出少年的名字。';
+      else if(f.strangerLost)scene.prompt='你回到曾经停留的县城。桥洞仍在，车辕的断木被当成柴火烧掉了。你没有救下那个少年，也没能让他的名字进入正式卷宗。卖纸钱的老人问你：“客人，你要祭谁？”你想了很久，发现自己记得他的脸，却从没问过他的名字。';
+      else if(f.mentorSaved)scene.prompt='你回到曾经停留的县城，旧武师仍在，却已老得走不动路。他没有跟你来，只把半截木刀交还，让你替他看一眼当年的桥洞。那里早已改成卖酒的小铺。卖纸钱的老人问你：“客人，你要祭谁？”你第一次意识到，活着的人也会慢慢离你远去。';
+      if(f.savedStranger&&!f.strangerLost)scene.options[1].chance=.82;
+    }
+    if(scene.id==='snow-alone') {
+      if(f.mentorSaved)scene.prompt='你站在雪岭之巅，身侧没有师父，也没有当年那些同门。旧武师已经不在了，留下的刀法却教会你如何在最冷的时候稳住手。年轻修士在山门外谈论你的传说，把你说成不食人间烟火的高人。他们不知道你仍记得师父纠正你握刀时的手势。你已经强到无人敢与你并肩，却找不到一个可以不必解释的人。';
+      if(f.discipleTaken)scene.prompt='你站在雪岭之巅，弟子已能独当一面，山门每天有人来往。可每当夜深，所有人散去，你仍会想起那些没能一起走到今天的故人。你已经强到无人敢与你并肩，却找不到一个可以不必解释的人。';
+      if(f.villagersSaved||f.oldDebtRepaid)scene.options[1].chance=.86;
+    }
+    return scene;
+  }
+  function scenarioChance(target,opt) {
+    let p=Number(opt.chance??.5);
+    const st=targetStats(target);
+    if(opt.statBonus)for(const[k,v]of Object.entries(opt.statBonus))p+=Math.min(.18,Math.max(0,Number(st[k])||0)*Number(v||0));
+    if(opt.requiresFlags&&target.flags)for(const key of opt.requiresFlags)if(target.flags[key])p+=.08;
+    return Math.max(.03,Math.min(1,p));
+  }
+
   function performAnnualEvent(mode) {
     const target=currentTarget(mode);if(!target)return;
     const startAge=target.age; target.age=number(target.age)+1;target.turns=number(target.turns)+1;if(mode==='simulation')target.years=number(target.years)+1;else target.worldYears=number(target.worldYears)+1;
@@ -526,6 +705,7 @@
     addProgress(target,baseGrowth);
     if(mode==='simulation')applyTalentAnnual(target);
     target.lifeExpectancy=Math.max(target.lifeExpectancy||80,currentLifespan(target.realm));
+    if(mode==='simulation') { const f=target.flags||{}; if(f.branchEcho&&Number(target.age||0)<=Number(f.branchEchoUntilAge||0))eventText+=`【因果回响】${f.branchEcho}`; }
     const chron={age:target.age,title:event?.title||'平稳一年',tag:event?.tag||'修行',text:eventText||'这一年没有发生大事，你仍在日复一日的生活中积累经验。',effects:[]};
     if(!target.chronicle)target.chronicle=[];target.chronicle.unshift(chron);target.chronicle=target.chronicle.slice(0,80);
     appendLog(target,eventText||'一年平稳过去。','年度纪事');
@@ -534,12 +714,16 @@
       state.deathMode=mode;state.screen='death';state.autoArmed=false;stopAutoTimer();save();render();return false;
     }
     if(mode==='simulation') {
-      // Age-locked story scenarios: each category appears once, and does not erase other main-story branches.
-      const cat=target.age>=54?'late':target.age>=34?'mid':target.age>=22?'early':null;
-      if(cat&&!target.scenarioUsed.includes(cat)) {
-        const scenes=DATA.choiceScenarios[cat]||[];
-        if(scenes.length&& (target.age===22||target.age===34||target.age===54||chance(.08))) {
-          target.pendingScenario=JSON.parse(JSON.stringify(scenes[randInt(0,scenes.length-1)]));target.pendingScenario.category=cat;
+      // A previous choice must leave an observable trace in the next year, not disappear behind a generic event.
+      const f=target.flags||{};
+      if(!target.pendingScenario) {
+        const queued=queueCinematicScene(target);
+        if(!queued) {
+          const cat=target.age>=54?'late':target.age>=34?'mid':target.age>=22?'early':null;
+          if(cat&&!target.scenarioUsed.includes(cat)) {
+            const scenes=DATA.choiceScenarios[cat]||[];
+            if(scenes.length&&chance(.04)) {target.pendingScenario=JSON.parse(JSON.stringify(scenes[randInt(0,scenes.length-1)]));target.pendingScenario.category=cat;}
+          }
         }
       }
     }
@@ -578,8 +762,8 @@
   }
   function resolveScenario(mode,index) {
     const target=currentTarget(mode);if(!target?.pendingScenario)return;
-    const scene=target.pendingScenario, opt=scene.options?.[index]; if(!opt)return;
-    const p=Number(opt.chance??.5),success=chance(p);
+    const scene=target.pendingScenario,opt=scene.options?.[index];if(!opt)return;
+    const p=scenarioChance(target,opt),success=chance(p);
     if(opt.stats)for(const[k,v]of Object.entries(opt.stats))addStat(target,k,v);
     if(opt.money)addMoney(target,opt.money,'铜币');if(opt.cultivation)addProgress(target,opt.cultivation);
     const part=success?opt.success:opt.failure;
@@ -588,8 +772,33 @@
     if(part?.money)addMoney(target,part.money,'铜币');if(part?.cultivation)addProgress(target,part.cultivation);
     if(part?.skill&&!target.skills.includes(part.skill))target.skills.push(part.skill);
     if(part?.item&&!target.items.includes(part.item))target.items.push(part.item);
-    target.scenarioUsed.push(scene.category);target.decisions.push({nodeTitle:scene.title,optionTitle:opt.title,success,result:text,age:target.age,mode});
-    appendLog(target,`${scene.title} · ${opt.title}。${text}`,'人生抉择');target.pendingScenario=null;setMessage(`${success?'行动成功':'行动受挫'}：${text}`);
+    if(part?.flags)Object.assign(target.flags||(target.flags={}),part.flags);
+    target.flags=target.flags||{};
+    target.flags.branchEcho=part?.echo||`你选择了「${opt.title}」，这件事不会随着下一年翻页而消失。`;
+    target.flags.branchEchoUntilAge=Number(target.age||0)+1;
+    target.scenarioUsed=target.scenarioUsed||[];if(scene.category&&!target.scenarioUsed.includes(scene.category))target.scenarioUsed.push(scene.category);
+    if(scene.cinematicId){target.flags.cinematicSeen=target.flags.cinematicSeen||[];if(!target.flags.cinematicSeen.includes(scene.cinematicId))target.flags.cinematicSeen.push(scene.cinematicId);}
+    target.decisions=target.decisions||[];target.decisions.push({nodeTitle:scene.title,optionTitle:opt.title,success,result:text,age:target.age,mode,cinematicId:scene.cinematicId||null});
+    appendLog(target,`${scene.title} · ${opt.title}。${text}`,'重大剧情·分支结果');target.pendingScenario=null;
+    // Explicitly telegraph high-risk actions, then resolve the actual fatal chance from the chosen risk and current state.
+    if(!success&&Number(opt.fatalChance)>0&&mode==='simulation') {
+      const f=target.flags||{},s=targetStats(target);let risk=Number(opt.fatalChance);
+      risk+=s.health<35?.10:s.health>75?-.04:0;
+      risk+=s.mind<15?.04:0;
+      risk-=Math.min(.28,sumTalentGift(target,'deathReduction'));
+      if(Number(f.survivalAidCharges||0)>0){risk-=.20;f.survivalAidCharges=0;appendLog(target,'保命天赋替你挡下了最致命的一击。','生死判定');}
+      risk=Math.max(.04,Math.min(.88,risk));
+      if(chance(risk)) {
+        f.prematureDeath=true;f.deathScene=scene.cinematicId||scene.title;
+        target.deathReason=opt.deathText||`你在「${scene.title}」中选择了高风险行动，失败后没能从战场活着离开。此后发生的一切，都只能留在未完成的人生里。`;
+        appendLog(target,`死亡：${target.deathReason}`,'横死');state.deathMode=mode;state.autoArmed=false;stopAutoTimer();state.screen='death';state.message='';save();render();return;
+      } else {
+        addStat(target,'health',-8);f.wounded=true;
+        text+=' 你没有当场死去，却留下了难以忽略的重伤；下一次危险遭遇会更难应付。';
+        target.decisions[target.decisions.length-1].result=text;
+      }
+    }
+    setMessage(`${success?'行动成功':'行动失败'}：${text}`);
     const next=nextEligibleNode(mode);if(next)target.pendingNode=next;
     save();render();afterDecision(mode);
   }
@@ -623,7 +832,10 @@
     if(r.skills.length)impact+=Math.min(12,r.skills.length*2);
     if(r.items.length)impact+=Math.min(10,r.items.length*2);
     if(f.inheritanceLeft||f.descendantProspered)impact+=20;
-    const earned=Math.max(20,Math.round(base+impact));r.impactPoints=impact;r.score=earned;r.deathReason=r.deathReason||'这一世走到了自然寿元的尽头。';
+    const naturalDeath=!r.flags?.prematureDeath && /寿元|自然寿元|主动选择结束/.test(String(r.deathReason||''));
+    const deathMultiplier=r.flags?.prematureDeath?(survivingYears<10?.18:.32):naturalDeath?1:.65;
+    const earned=Math.max(r.flags?.prematureDeath?4:20,Math.round((base+impact)*deathMultiplier));
+    r.impactPoints=impact;r.score=earned;r.deathPenalty=r.flags?.prematureDeath?Math.round((base+impact)-earned):0;r.deathReason=r.deathReason||'这一世走到了自然寿元的尽头。';
     state.points+=earned; r.awarded=true;
     state.pendingSettlement={runId:r.id,earned,base,impact,credited:true,reason:r.deathReason};
     state.screen='settlement';state.page='simulate';
@@ -641,8 +853,14 @@
     if(f.savedStranger)outcomes.push('你救下的陌生人构成一条尚待延续的人情因果，若他后来有所成就，本世影响也会随之增长。');
     if(f.finalOutcome==='relocation')outcomes.push('你带着族谱和部分证据迁离旧地，使这一支的故事有机会在新地方继续。');
     if(f.descendantProspered)outcomes.push('你留下的家规、积蓄或传承让后代受益，影响分已纳入结算。');
+    if(f.mentorDead)outcomes.push('旧武师没有陪你走到最后。那盏寒灯与最后一课留在本世记忆中，成为你往后拔刀时无法抹去的重量。');
+    if(f.villagersSaved)outcomes.push('你曾在火海或追杀中把普通人带出险境；这些生还者不是文字背景，而是本世真正保住的人命。');
+    if(f.rivalDefeated)outcomes.push(f.rivalSpared?'你击败了宿敌，却没有夺去他的性命；这段因果仍可能在后来的道路上回响。':'你在擂台上击败宿敌，名声从此不同。');
+    if(f.loneRoad||f.closedHeart)outcomes.push('你选择了独行。力量可能因此更坚定，但故人、弟子和人间温度并没有自动回来。');
+    if(f.prematureDeath)outcomes.push(`你在「${f.deathScene||'重大险境'}」中横死。此世未完成的修为、未见到的结局与潜在传承全部中断，积分也受到严重惩罚。`);
     if(!outcomes.length)outcomes.push('这一世没有形成足以延续的重大势力因果，但训练、谋生、见识和个人选择仍已记入本世经历。');
-    const lead=`${state.name}以${r.talent?.name||'未名天赋'}走过了${Math.max(0,r.age-r.startAge)}年。${r.decisions.length}次重大抉择决定了不同分支；这场危机没有被简单的战力数值自动解决。`;
+    const cinematicCount=(f.cinematicSeen||[]).length;
+    const lead=`${state.name}以${r.talent?.name||'未名天赋'}走过了${Math.max(0,r.age-r.startAge)}年，经历${cinematicCount}段独立剧情与${r.decisions.length}次重大抉择。${f.prematureDeath?'这不是寿元自然耗尽，而是一场真实的提前死亡；本世因果被迫中断。':f.loneRoad?'你走过繁华与失去，最后选择了独行。':f.mentorSaved?'你救下师父，也留下了一段仍在延续的师承。':'这世的选择、失去与收获已一并封存。'}`;
     return {lead,outcomes};
   }
   function rewardCost(item) {
@@ -747,7 +965,7 @@
     const blob=new Blob([JSON.stringify(state,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='玄幻人生模拟器_独立重制版存档.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
   function importSaveFile(file) {
-    if(!file)return;const reader=new FileReader();reader.onload=()=>{try{const v=JSON.parse(String(reader.result||''));if(!['2.0.0','2.1.0','2.2.0'].includes(v?.appVersion)||!v.world||!Array.isArray(v.history))throw new Error('不兼容');state=migrateState(v);state.screen='main';state.page='home';stopAutoTimer();state.autoArmed=false;save();setMessage('新架构存档导入成功。');render();}catch(_){setMessage('存档格式不正确或版本不兼容，当前进度未被覆盖。');render();}};reader.readAsText(file,'utf-8');
+    if(!file)return;const reader=new FileReader();reader.onload=()=>{try{const v=JSON.parse(String(reader.result||''));if(!['2.0.0','2.1.0','2.2.0','2.3.0'].includes(v?.appVersion)||!v.world||!Array.isArray(v.history))throw new Error('不兼容');state=migrateState(v);state.screen='main';state.page='home';stopAutoTimer();state.autoArmed=false;save();setMessage('新架构存档导入成功。');render();}catch(_){setMessage('存档格式不正确或版本不兼容，当前进度未被覆盖。');render();}};reader.readAsText(file,'utf-8');
   }
   function goHome() {stopAutoTimer();state.autoArmed=false;state.screen='main';state.page='home';save();render();}
   function setPage(page) {
@@ -775,7 +993,12 @@
     if(!target)return '';
     if(mode==='reality'&&target.flags?.immortalAttained)return renderImmortalEnding();
     if(target.crisisDay) {
-      return `<section class="panel story-panel"><div class="row"><span class="chapter">七日危机 · ${target.crisisDay}/7</span><span class="age-pill">${mode==='reality'?'现实主线':'模拟分支'}</span></div><h2>第${target.crisisDay}日：最后的准备时间</h2><p class="story-text">赵家开始调动护卫与矿道人手。你不可能在七天里靠练体境直接战胜后天二重强者；调查、示警、联络、训练与撤离准备，每一天都要作出安排。</p><div class="choices">${DATA.simDailyActions.map(a=>`<button class="choice-card" data-action="daily" data-mode="${mode}" data-id="${esc(a.id)}"><span class="choice-icon">${esc(a.title.slice(0,1))}</span><span><b>${esc(a.title)}</b><small>${esc(a.desc)}</small></span></button>`).join('')}</div><div class="muted tiny">选择后会结算当天并进入下一日；第七日结束后自动进入“赵家老祖登门”。</div></section>`;
+      if(mode==='simulation') {
+        const turn=CRISIS_TURNS[target.crisisDay]||CRISIS_TURNS[7],choices=getCrisisChoices(target,mode),f=target.flags||{};
+        const context=f.mineEvidence==='strong'?'你手里已有可核验的强证据。':f.zhaoAlert?'赵家已经起疑，今晚再出错就可能被直接围住。':f.evacuateRoute?'你已摸到一条退路，但还没有保证所有人都能通过。':'此前尚未建立可靠的退路或证据。';
+        return `<section class="panel story-panel critical"><div class="row"><span class="chapter">七日生死线 · ${target.crisisDay}/7</span><span class="age-pill">本世模拟 · ${esc(realmName(target.realm,target.level))}</span></div><h2>${esc(turn.title)}</h2><p class="story-text">${esc(turn.text)}</p><div class="hint-strip">当前局势：${esc(context)} 已准备 ${number(f.readiness)} 项撤离/防备。每一天的选项都会变化，并根据前几天的行动分叉。</div><div class="choices">${choices.map(a=>`<button class="choice-card" data-action="daily" data-mode="${mode}" data-id="${esc(a.id)}"><span class="choice-icon">${esc(a.title.slice(0,1))}</span><span class="choice-content"><b>${esc(a.title)}</b><small>${esc(a.desc)}</small><em>行动后果会记录到这场危机，部分选择可能造成重伤或横死。</em></span></button>`).join('')}</div><div class="muted tiny">你不能在同一天重置选择。第七天的决定将直接影响老祖登门时的生还者、证据与撤离路线。</div></section>`;
+      }
+      return `<section class="panel story-panel"><div class="row"><span class="chapter">七日危机 · ${target.crisisDay}/7</span><span class="age-pill">现实主线</span></div><h2>第${target.crisisDay}日：最后的准备时间</h2><p class="story-text">赵家开始调动护卫与矿道人手。你不可能在七天里靠练体境直接战胜后天二重强者；调查、示警、联络、训练与撤离准备，每一天都要作出安排。</p><div class="choices">${DATA.simDailyActions.map(a=>`<button class="choice-card" data-action="daily" data-mode="${mode}" data-id="${esc(a.id)}"><span class="choice-icon">${esc(a.title.slice(0,1))}</span><span><b>${esc(a.title)}</b><small>${esc(a.desc)}</small></span></button>`).join('')}</div><div class="muted tiny">选择后会结算当天并进入下一日；第七日结束后自动进入“赵家老祖登门”。</div></section>`;
     }
     if(target.pendingNode) {
       const node=currentActiveNode(mode);if(!node)return '';
@@ -794,7 +1017,7 @@
   }
   function renderScenarioPanel(mode,scene) {
     const target=currentTarget(mode);
-    return `<section class="panel story-panel critical"><div class="row"><span class="chapter">人生阶段抉择 · ${esc(scene.category||'机缘')}</span><span class="age-pill">${target.age}岁</span></div><h2>${esc(scene.title)}</h2><p class="story-text">${esc(scene.prompt)}</p><div class="choices">${(scene.options||[]).map((opt,i)=>`<button class="choice-card" data-action="scenario-choice" data-mode="${mode}" data-index="${i}"><span class="choice-icon">${String.fromCharCode(65+i)}</span><span class="choice-content"><b>${esc(opt.title)}</b><small>${esc(opt.preview||'影响将根据行动结果写入本世因果。')}</small><em>预计执行成功率约 ${Math.round((Number(opt.chance)||.5)*100)}% · 不保证整条剧情线最终成功</em></span></button>`).join('')}</div><div class="hint-strip">这是独立人生节点。此前每一年仍已单独结算，只是本次推进跨过了多个年份。</div></section>`;
+    return `<section class="panel story-panel critical cinematic-story"><div class="row"><span class="chapter">${esc(scene.category||'人生转折')} · 独立剧情</span><span class="age-pill">${target.age}岁 · ${esc(realmName(target.realm,target.level))}</span></div><h2>${esc(scene.title)}</h2><p class="story-text">${esc(scene.prompt)}</p><div class="hint-strip">本事件不会按普通年度随机事件一笔带过。选项会留下长期因果；标注高风险的正面战斗，失败后可能横死并大幅削减本世积分。</div><div class="choices">${(scene.options||[]).map((opt,i)=>`<button class="choice-card" data-action="scenario-choice" data-mode="${mode}" data-index="${i}"><span class="choice-icon">${String.fromCharCode(65+i)}</span><span class="choice-content"><b>${esc(opt.title)}</b><small>${esc(opt.preview||'影响将根据行动结果写入本世因果。')}</small><em>预计成功率约 ${Math.round(scenarioChance(target,opt)*100)}%${Number(opt.fatalChance)>0?` · 失败后另有约 ${Math.round(Number(opt.fatalChance)*100)}% 基础致死风险`:''}</em></span></button>`).join('')}</div><div class="muted tiny">本世分支已记忆；往后的事件会回应你救过谁、失去谁、赢过哪场战斗，以及是否选择独行。</div></section>`;
   }
   function renderHome() {
     const w=state.world,reg=DATA.regions[w.regionId]||DATA.regions.qingshan,map=DATA.worldMaps[w.regionId]||DATA.worldMaps.qingshan;
@@ -829,7 +1052,7 @@
   }
   function renderDeath() {
     const mode=state.deathMode==='reality'?'reality':'simulation';const title=mode==='reality'?'现实这一生，已经落幕':'本世模拟，走到了终点';const cause=state.world.deathReason||state.run?.deathReason||'人生走到了这一世的尽头。';
-    return `<div class="death-screen"><div class="death-kicker">${mode==='reality'?'THE END OF THIS LIFE':'SIMULATION ENDED'}</div><div class="death-symbol">☾</div><h1>${title}</h1><p class="death-cause">${esc(cause)}</p><p class="death-sub">${mode==='reality'?'这一世的现实经历已封存。新生后，现实年龄、身体、境界与钱财将按轮回规则重新开始；永久传承、积分和往世记录保留。':'本世人生已停止，不会继续推进。请先查看这次人生的经历评价，再选择把实际收获带回现实。'}</p><button class="btn" data-action="death-continue">${mode==='reality'?'进入下一世':'查看结算与传承 →'}</button></div>`;
+    return `<div class="death-screen"><div class="death-kicker">${mode==='reality'?'THE END OF THIS LIFE':'SIMULATION ENDED'}</div><div class="death-symbol">☾</div><h1>${title}</h1><p class="death-cause">${esc(cause)}</p><p class="death-sub">${mode==='reality'?'这一世的现实经历已封存。新生后，现实年龄、身体、境界与钱财将按轮回规则重新开始；永久传承、积分和往世记录保留.':'本世人生已停止，不会继续推进。若是横死，本世积分将大幅削减；你失去的是尚未完成的人生，不是单纯跳过一个场景。先看清死因，再决定如何结算。'}</p><button class="btn" data-action="death-continue">${mode==='reality'?'进入下一世':'查看结算与传承 →'}</button></div>`;
   }
   function renderSettlement() {
     const r=state.run;if(!r)return '<section class="panel"><h2>没有待结算人生</h2><button class="btn" data-action="back-home">返回主世界</button></section>';
@@ -839,7 +1062,7 @@
     const rankRows=ranks.map(rank=>({type:'rank',key:'rank:'+rank.ordinal,label:`修为传承 · ${rank.label}`,rank}));
     const talentRow=r.talent&&!state.perks.includes(r.talent.name)?[{type:'talent',key:'talent:'+r.talent.id,label:`天赋感悟 · ${r.talent.name}`,talent:r.talent}]:[];
     return `<div class="page-heading"><div class="panel-kicker">LIFE REVIEW · 因果结算</div><h1>第${r.number}世：人生结算</h1><p>不使用抽象的甲乙丙等级。系统按这一世实际经历、选择、成就、失败以及对后世的影响结算积分。</p></div>
-    <section class="panel settlement-summary"><div class="row"><div><div class="panel-kicker">本世已封存</div><h2 class="section-title">${esc(state.name)} · ${esc(realmName(r.realm,r.level))}</h2><p class="muted">终年 ${r.age}岁 · ${esc(DATA.regions[r.regionId]?.short||r.regionId)} · ${esc(r.talent.name)} · ${esc(r.path.name)}</p></div><div class="points-big"><b>+${fmt(r.score)}</b><small>本世获得积分</small></div></div><p class="story-text">${esc(review.lead)} 这一世的终结原因：${esc(r.deathReason||'寿元已尽。')}</p><div class="point-breakdown"><div><span>经历与决策</span><b>${fmt(state.pendingSettlement?.base||0)}</b></div><div><span>后世影响</span><b>${fmt(r.impactPoints||0)}</b></div><div><span>长期累计</span><b>${fmt(state.points)}</b></div></div><h3 class="minor-title">真正延续下来的因果</h3><ul class="outcome-list">${review.outcomes.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3 class="minor-title">关键抉择回顾</h3><div class="decision-recap">${(r.decisions||[]).slice(-10).map(d=>`<article><b>${esc(d.nodeTitle||'人生抉择')} · ${esc(d.optionTitle||'行动')}</b><p>${esc(d.result||'结果已写入因果记录。')}</p><small>${d.success?'行动成功':'行动受挫'} · ${d.age}岁</small></article>`).join('')||'<p class="muted">这一世没有完成关键抉择，积分主要来自实际经历与修为积累。</p>'}</div></section>
+    <section class="panel settlement-summary"><div class="row"><div><div class="panel-kicker">本世已封存</div><h2 class="section-title">${esc(state.name)} · ${esc(realmName(r.realm,r.level))}</h2><p class="muted">终年 ${r.age}岁 · ${esc(DATA.regions[r.regionId]?.short||r.regionId)} · ${esc(r.talent.name)} · ${esc(r.path.name)}</p></div><div class="points-big"><b>+${fmt(r.score)}</b><small>本世获得积分</small></div></div><p class="story-text">${esc(review.lead)} 这一世的终结原因：${esc(r.deathReason||'寿元已尽。')}</p>${r.flags?.prematureDeath?`<div class="hint-strip">横死惩罚：本世积分按提前死亡规则削减了约 ${Math.round((1-(r.score/Math.max(1,(state.pendingSettlement?.base||0)+(r.impactPoints||0))))*100)}%，越早夭折损失越大。未达到的境界、未触发的剧情和未取得的传承不会补发。</div>`:''}<div class="point-breakdown"><div><span>经历与决策</span><b>${fmt(state.pendingSettlement?.base||0)}</b></div><div><span>后世影响</span><b>${fmt(r.impactPoints||0)}</b></div><div><span>长期累计</span><b>${fmt(state.points)}</b></div></div><h3 class="minor-title">真正延续下来的因果</h3><ul class="outcome-list">${review.outcomes.map(x=>`<li>${esc(x)}</li>`).join('')}</ul><h3 class="minor-title">关键抉择回顾</h3><div class="decision-recap">${(r.decisions||[]).slice(-10).map(d=>`<article><b>${esc(d.nodeTitle||'人生抉择')} · ${esc(d.optionTitle||'行动')}</b><p>${esc(d.result||'结果已写入因果记录。')}</p><small>${d.success?'行动成功':'行动受挫'} · ${d.age}岁</small></article>`).join('')||'<p class="muted">这一世没有完成关键抉择，积分主要来自实际经历与修为积累。</p>'}</div></section>
     <section class="panel"><div class="row"><div><div class="panel-kicker">跨世传承 · 仅兑换实际获得的内容</div><h2 class="section-title">将哪一段成果带回现实？</h2></div><span class="points-pill">可用积分 ${fmt(state.points)}</span></div><p class="muted">可选择这世实际达到的任意境界阶段，不必只买最终境界。若阶段低于现实已有境界，会转为“境界感悟”记录，不会降低现实修为。购买后先加入清单，再点击同步现实。</p><div class="reward-grid">${rankRows.map(item=>renderRewardCard(item)).join('')}${talentRow.map(item=>renderRewardCard(item)).join('')}${skillRows.map(item=>renderRewardCard(item)).join('')}${itemRows.map(item=>renderRewardCard(item)).join('')}<button class="reward-card" data-action="buy-attribute" data-stat="comprehension"><div><small>属性传承</small><b>悟性 +3</b><p>将这世的理解与复盘带回现实。</p></div><span class="reward-cost">18 积分</span></button><button class="reward-card" data-action="buy-attribute" data-stat="mind"><div><small>属性传承</small><b>心性 +3</b><p>将这世练出的定力带回现实。</p></div><span class="reward-cost">18 积分</span></button></div><div class="inherit-list"><b>待同步的传承清单</b>${state.pendingRewards.length?state.pendingRewards.map(x=>`<span class="inherit-chip">${esc(x.label)} · -${x.cost}积分</span>`).join(''):'<p class="muted">尚未选择传承。也可以不兑换任何项目，直接确认结算。</p>'}</div><div class="buttons"><button class="btn" data-action="sync-settlement">确认结算并同步现实 →</button><button class="btn btn-soft" data-action="export-save">导出存档备份</button></div></section>`;
   }
   function renderRewardCard(item) {
@@ -883,7 +1106,7 @@
     const p=calculatePower(state.world);return `<div class="page-heading"><div class="panel-kicker">COMBAT POWER</div><h1>现实战力评估</h1><p>战力由当前境界、九项基础属性和已传承战斗天赋共同计算。境界决定主要量级，数值不在 100 处循环封顶。</p></div><section class="panel power-hero"><div class="panel-kicker">当前综合战力</div><div class="power-total">${fmt(p.total)}</div><span class="realm-chip">${esc(realmName(state.world.realm,state.world.level))}</span><div class="power-grid"><div><small>境界基础</small><b>${fmt(p.base)}</b></div><div><small>根基属性贡献</small><b>+${fmt(p.attributes)}</b></div><div><small>永久战斗天赋</small><b>+${p.bonus}%</b></div><div><small>属性成长量级</small><b>${Math.max(1,Math.ceil(Math.max(...Object.values(state.world.stats))/100))}阶</b></div></div></section><section class="panel"><div class="panel-kicker">根基详情</div><h2 class="section-title">九项属性当前阶段</h2>${renderAttributeGrid(state.world.stats)}</section>`;
   }
   function renderSettings() {
-    return `<div class="page-heading"><div class="panel-kicker">LOCAL SAVE / ACCESSIBILITY</div><h1>设置与存档</h1><p>纯本地单文件 HTML，不加载外部脚本或服务。若浏览器限制 file:// 本地存储，可以手动导出 JSON 存档备份。</p></div><section class="panel"><div class="panel-kicker">推演设置</div><h2 class="section-title">自动推进</h2><div class="settings-row"><span><b>自动速度上限 3×</b><small>速度是每秒推进步频；重大选择会暂停并在选择后继续。</small></span><div class="segmented">${[1,2,3].map(s=>`<button class="segment ${Number(state.settings.speed)===s?'selected':''}" data-action="speed" data-value="${s}">${s}×</button>`).join('')}</div></div><div class="settings-row"><span><b>推进节奏</b><small>阶段模式每次最多推进到下一个关键节点；逐年精读每次结算一年。</small></span><div class="segmented"><button class="segment ${state.settings.stepMode==='stage'?'selected':''}" data-action="step-mode" data-value="stage">阶段推演</button><button class="segment ${state.settings.stepMode==='year'?'selected':''}" data-action="step-mode" data-value="year">逐年精读</button></div></div></section><section class="panel"><div class="panel-kicker">存档操作</div><h2 class="section-title">导出、导入与重开</h2><p class="muted">自动保存使用新版本独立的存档键，不会覆盖旧版 v1.35.4 / v1.35.9 的存档结构。</p><div class="buttons"><button class="btn" data-action="export-save">导出当前存档 JSON</button><label class="btn btn-soft file-label">导入存档 JSON<input id="import-file" type="file" accept="application/json,.json" hidden></label><button class="btn btn-danger" data-action="reset-game">重新开始全新人生</button></div>${state.storageIssue?'<div class="hint-strip warning">当前浏览器未允许自动本地存储；游戏仍可运行，但请定期导出存档。</div>':'<div class="hint-strip">本地存储：尝试可用则自动保存；若浏览器限制存储，会降级为当前会话运行，不影响基本游玩。</div>'}<div class="settings-meta"><span>架构版本 2.2.0</span><span>天赋内容 ${DATA.talents.length} 条</span><span>主线节点 ${DATA.storyNodes.length} 个</span><span>外部依赖 0 个</span></div></section>`;
+    return `<div class="page-heading"><div class="panel-kicker">LOCAL SAVE / ACCESSIBILITY</div><h1>设置与存档</h1><p>纯本地单文件 HTML，不加载外部脚本或服务。若浏览器限制 file:// 本地存储，可以手动导出 JSON 存档备份。</p></div><section class="panel"><div class="panel-kicker">推演设置</div><h2 class="section-title">自动推进</h2><div class="settings-row"><span><b>自动速度上限 3×</b><small>速度是每秒推进步频；重大选择会暂停并在选择后继续。</small></span><div class="segmented">${[1,2,3].map(s=>`<button class="segment ${Number(state.settings.speed)===s?'selected':''}" data-action="speed" data-value="${s}">${s}×</button>`).join('')}</div></div><div class="settings-row"><span><b>推进节奏</b><small>阶段模式每次最多推进到下一个关键节点；逐年精读每次结算一年。</small></span><div class="segmented"><button class="segment ${state.settings.stepMode==='stage'?'selected':''}" data-action="step-mode" data-value="stage">阶段推演</button><button class="segment ${state.settings.stepMode==='year'?'selected':''}" data-action="step-mode" data-value="year">逐年精读</button></div></div></section><section class="panel"><div class="panel-kicker">存档操作</div><h2 class="section-title">导出、导入与重开</h2><p class="muted">自动保存使用新版本独立的存档键，不会覆盖旧版 v1.35.4 / v1.35.9 的存档结构。</p><div class="buttons"><button class="btn" data-action="export-save">导出当前存档 JSON</button><label class="btn btn-soft file-label">导入存档 JSON<input id="import-file" type="file" accept="application/json,.json" hidden></label><button class="btn btn-danger" data-action="reset-game">重新开始全新人生</button></div>${state.storageIssue?'<div class="hint-strip warning">当前浏览器未允许自动本地存储；游戏仍可运行，但请定期导出存档。</div>':'<div class="hint-strip">本地存储：尝试可用则自动保存；若浏览器限制存储，会降级为当前会话运行，不影响基本游玩。</div>'}<div class="settings-meta"><span>架构版本 2.3.0</span><span>天赋内容 ${DATA.talents.length} 条</span><span>主线节点 ${DATA.storyNodes.length} 个</span><span>外部依赖 0 个</span></div></section>`;
   }
   function renderImmortalEnding() {
     const w=state.world||{},flags=w.flags||{},chronicle=w.chronicle||[];
@@ -938,7 +1161,7 @@
       default:content=renderHome();
     }
     const active=(state.screen==='setup'||state.screen==='simulation'||state.screen==='settlement')?'simulate':state.page;
-    return `<div class="app-shell"><header class="topbar"><div class="brand-mark">命</div><div class="brand-copy"><div class="brand-eyebrow">A LIFE · A THOUSAND FATES</div><div class="brand-name">玄幻人生模拟器 <span>小说主线融合版 2.2.0</span></div></div><div class="topbar-right"><span class="top-status">${state.run&&!state.run.finished?'本世推演中':state.meta.firstSimFree?'首次模拟免费':'现实人生 · '+state.world.age+'岁'}</span><button class="btn btn-soft small-btn" data-action="export-save">导出存档</button></div></header><nav class="nav-bar">${NAV.map(([id,label,ico])=>`<button class="nav-item ${active===id?'active':''}" data-action="page" data-page="${id}"><span>${ico}</span>${label}</button>`).join('')}</nav>${state.message?`<div class="toast-inline" role="status"><span>${esc(state.message)}</span><button data-action="dismiss-message" aria-label="关闭提示">×</button></div>`:''}<div class="app-layout">${(state.screen==='setup'||state.screen==='simulation'||state.screen==='settlement'||state.page==='home'||state.page==='power')?renderLeftCard():''}<main class="content-area">${content}</main></div><footer class="footer"><span>独立 HTML · 本地运行 · 无外部运行时依赖</span><span>${state.storageIssue?'自动保存不可用 · 可导出存档':'自动保存：尽力启用'} · ${state.runs}世已结算</span></footer></div>`;
+    return `<div class="app-shell"><header class="topbar"><div class="brand-mark">命</div><div class="brand-copy"><div class="brand-eyebrow">A LIFE · A THOUSAND FATES</div><div class="brand-name">玄幻人生模拟器 <span>剧情重构版 2.3.0</span></div></div><div class="topbar-right"><span class="top-status">${state.run&&!state.run.finished?'本世推演中':state.meta.firstSimFree?'首次模拟免费':'现实人生 · '+state.world.age+'岁'}</span><button class="btn btn-soft small-btn" data-action="export-save">导出存档</button></div></header><nav class="nav-bar">${NAV.map(([id,label,ico])=>`<button class="nav-item ${active===id?'active':''}" data-action="page" data-page="${id}"><span>${ico}</span>${label}</button>`).join('')}</nav>${state.message?`<div class="toast-inline" role="status"><span>${esc(state.message)}</span><button data-action="dismiss-message" aria-label="关闭提示">×</button></div>`:''}<div class="app-layout">${(state.screen==='setup'||state.screen==='simulation'||state.screen==='settlement'||state.page==='home'||state.page==='power')?renderLeftCard():''}<main class="content-area">${content}</main></div><footer class="footer"><span>独立 HTML · 本地运行 · 无外部运行时依赖</span><span>${state.storageIssue?'自动保存不可用 · 可导出存档':'自动保存：尽力启用'} · ${state.runs}世已结算</span></footer></div>`;
   }
   function renderIntro() {
     const page=DATA.openingPages[Math.max(0,Math.min(DATA.openingPages.length-1,state.openingIndex))];
@@ -1038,7 +1261,7 @@
   if(state.run&&state.run.pendingNode==null&&!state.run.crisisDay&&!state.run.finished&&!state.run.pendingScenario){const n=nextEligibleNode('simulation');if(n)state.run.pendingNode=n;}
   render();
   // Public tiny API for QA smoke tests; the game itself needs no parent frame or platform integration.
-  window.LifeSimFresh = {version:'2.2.0',dataCounts:{talents:DATA.talents.length,nodes:DATA.storyNodes.length,realms:DATA.realms.length},getState:()=>JSON.parse(JSON.stringify(state))};
+  window.LifeSimFresh = {version:'2.3.0',dataCounts:{talents:DATA.talents.length,nodes:DATA.storyNodes.length,realms:DATA.realms.length},getState:()=>JSON.parse(JSON.stringify(state))};
 })();
 
 </script>
